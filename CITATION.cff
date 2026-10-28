@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite this software version using its own DOI. The related analysis protocol is a separate record."
+title: "ECG Ensemble External Evaluation: Reproducible Scores and Analyses of Two Pipelines"
+type: software
+authors:
+  - family-names: Adnan
+    given-names: Muhammad
+version: 0.4.1
+license: MIT
+doi: 10.5281/zenodo.23729209
+url: https://github.com/Dan7651/ecg-ensemble-external-evaluation
