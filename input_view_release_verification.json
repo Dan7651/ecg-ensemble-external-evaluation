@@ -1,0 +1,11 @@
+{
+  "score_file": "input_view_five_seed_selected_21183.csv.gz",
+  "score_sha256": "e3fce2e9454cef82530e8b67c74868b00d30e432778e6a53d056d290b03cab26",
+  "records": 21183,
+  "models": 5,
+  "probabilities": 529575,
+  "fp32_roundtrip_exact": true,
+  "record_ids_exact": true,
+  "patient_attributes_or_raw_waveforms_in_score_export": false,
+  "public_software_publication_still_pending": true
+}

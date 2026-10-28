@@ -1,0 +1,9 @@
+{
+  "version": "0.4.1",
+  "state_at_sealing": "prepublication",
+  "status_scope": "Sealing-time provenance only; use the DOI landing page for current publication state.",
+  "reserved_software_doi": "10.5281/zenodo.23729209",
+  "public_repository_url": "https://github.com/Dan7651/ecg-ensemble-external-evaluation",
+  "protocol_doi": "10.5281/zenodo.23684380",
+  "protocol_doi_is_software_doi": false
+}

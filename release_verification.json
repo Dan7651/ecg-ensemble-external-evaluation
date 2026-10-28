@@ -1,0 +1,194 @@
+{
+  "scores": [
+    {
+      "file": "scores/original_first_window_all_25770.csv.gz",
+      "sha256": "a5b00a616aaae9a78721f8f8ff5079970a3b0e3e1354cd6bceb3b547fe0d84ae",
+      "rows": 25770,
+      "columns": [
+        "ECG_ID",
+        "selected",
+        "R42_NORM",
+        "R42_MI",
+        "R42_STTC",
+        "R42_CD",
+        "R42_HYP",
+        "J42_NORM",
+        "J42_MI",
+        "J42_STTC",
+        "J42_CD",
+        "J42_HYP"
+      ],
+      "fp32_bitwise_roundtrip": true
+    },
+    {
+      "file": "scores/original_full_coverage_selected_21183.csv.gz",
+      "sha256": "8ff58990a9a9459ae7772bdcac8fa1f0e2be541f47818547c305cbb23b5e5829",
+      "rows": 21183,
+      "columns": [
+        "ECG_ID",
+        "long_record",
+        "windows",
+        "R42_NORM",
+        "R42_MI",
+        "R42_STTC",
+        "R42_CD",
+        "R42_HYP",
+        "J42_NORM",
+        "J42_MI",
+        "J42_STTC",
+        "J42_CD",
+        "J42_HYP"
+      ],
+      "fp32_bitwise_roundtrip": true
+    },
+    {
+      "file": "scores/matched_seed_selected_21183.csv.gz",
+      "sha256": "18fe43d7c12447d64242f33522abad316571b3a54d9b59c9a43e775987190dd9",
+      "rows": 21183,
+      "columns": [
+        "ECG_ID",
+        "R101_NORM",
+        "R101_MI",
+        "R101_STTC",
+        "R101_CD",
+        "R101_HYP",
+        "R202_NORM",
+        "R202_MI",
+        "R202_STTC",
+        "R202_CD",
+        "R202_HYP",
+        "R303_NORM",
+        "R303_MI",
+        "R303_STTC",
+        "R303_CD",
+        "R303_HYP",
+        "R404_NORM",
+        "R404_MI",
+        "R404_STTC",
+        "R404_CD",
+        "R404_HYP",
+        "R505_NORM",
+        "R505_MI",
+        "R505_STTC",
+        "R505_CD",
+        "R505_HYP",
+        "J101_NORM",
+        "J101_MI",
+        "J101_STTC",
+        "J101_CD",
+        "J101_HYP",
+        "J202_NORM",
+        "J202_MI",
+        "J202_STTC",
+        "J202_CD",
+        "J202_HYP",
+        "J303_NORM",
+        "J303_MI",
+        "J303_STTC",
+        "J303_CD",
+        "J303_HYP",
+        "J404_NORM",
+        "J404_MI",
+        "J404_STTC",
+        "J404_CD",
+        "J404_HYP",
+        "J505_NORM",
+        "J505_MI",
+        "J505_STTC",
+        "J505_CD",
+        "J505_HYP"
+      ],
+      "fp32_bitwise_roundtrip": true
+    }
+  ],
+  "heads": [
+    {
+      "file": "checkpoints/jepa_head_seed505.pth",
+      "sha256": "182968010d8dd34510a4d8279c477d25a675a10676acd4fb3426de992c075697",
+      "bytes": 402717,
+      "deserialized": false
+    },
+    {
+      "file": "checkpoints/jepa_head_seed303.pth",
+      "sha256": "5422a55f9435603b2f83141f30dbd2dce600272c9797079a88bf7ddc69a69c1c",
+      "bytes": 402717,
+      "deserialized": false
+    },
+    {
+      "file": "checkpoints/jepa_head_seed101.pth",
+      "sha256": "f5368a5eb7989f33ce52bb95455b8fbab4ebfec6c7fcae5a84795f6a5633d84d",
+      "bytes": 402717,
+      "deserialized": false
+    },
+    {
+      "file": "checkpoints/jepa_head_seed404.pth",
+      "sha256": "74a4e38b913ad23a0db055cd331e0682653670f01740451585c5bfc0a05dc6cc",
+      "bytes": 402717,
+      "deserialized": false
+    },
+    {
+      "file": "checkpoints/jepa_head_seed202.pth",
+      "sha256": "e460edcec1977f7f7cafddcd589ff4de3fb7ab7599c30ea1a8cba06ab133c174",
+      "bytes": 402717,
+      "deserialized": false
+    }
+  ],
+  "source_licenses": [
+    {
+      "id": 17912441,
+      "title": "The attributes of ECG records",
+      "license": {
+        "value": 2,
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "source_api_sha256": "61c7167eeb5e94409153c36d96196477810333f8aef6cd91e0486928e0d30758"
+    },
+    {
+      "id": 17912444,
+      "title": "ECG records",
+      "license": {
+        "value": 2,
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "source_api_sha256": "68d2a3adf41e1aeffd799b7c86de5d61a0a7cf3de532b19a4177323ebf9ea03e"
+    },
+    {
+      "id": 17912507,
+      "title": "diagnostic statement dictionary",
+      "license": {
+        "value": 2,
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "source_api_sha256": "d2cdfd92eb0a3ba59e6eb1ef5d75754552ae9632f663afcd1324067c149a02c1"
+    },
+    {
+      "id": 17914088,
+      "title": "Code for analyzing the ECG records and dataset splitting",
+      "license": {
+        "value": 2,
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "source_api_sha256": "aadb0c1bf23d2500f9e5ea80052ae2bbbe11750d24f51aacd4707bc9241675eb"
+    },
+    {
+      "id": 19738468,
+      "title": "Mapping from Chinese ECG statements to AHA codes",
+      "license": {
+        "value": 2,
+        "name": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "source_api_sha256": "8049398ad95068ea665a4e562fc2a1775efa8713d65bcef051f8d79b34c4228a"
+    }
+  ],
+  "pinned_encoder_source_license": {
+    "url": "https://raw.githubusercontent.com/sehunfromdaegu/ECG_JEPA/d937ad2c2c8a1e22856ce7e4a23a30f84a71217c/license",
+    "sha256": "9b8cab62eb43b807cfce99365958087fb7302eb4cf2aa23139e5e163867b9246",
+    "verified": true
+  },
+  "publication_status": "local_candidate_no_software_DOI"
+}

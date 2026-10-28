@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-10-27T17:21:18.348564+00:00",
+  "status": "additional post hoc analyses requested after existing SPH outcomes; no new independent registration claimed",
+  "primary_analysis_preserved": true,
+  "seed_exclusions_not_primary_selection": true,
+  "N1": "component mean/sample-SD/range and all original/five-seed contrasts",
+  "N2": [
+    "omit ResNet202 from each pair that contains it",
+    "omit both family seed202 fits; retain full-set results"
+  ],
+  "N3": "source and target offset-only changes, observed change/prior-delta effect sizes; no causal decomposition or per-class correction chosen after outcomes",
+  "N4": "blend-minus-JEPA F1 at fixed0.5/oracle/patient-crossfit, paired intervals from existing aligned2000draws",
+  "N5": "per-class PPV and NPV at oracle and crossfit specificity targets; derive from stored rates/prevalence and verify against point confusion counts",
+  "N6": {
+    "sensitivity": "fixed >=20 positives AND >=20 negatives per class in age18-39 only; retain original five-class result/withheld interval",
+    "draws": 1000,
+    "minimum_valid": 980,
+    "seed": 2026102806,
+    "no_stratum_redefinition": true
+  },
+  "N7": [
+    "25-code map",
+    "all44 primary-statement counts among4587excluded records; multi-statement counts overlap",
+    "classwise inclusion metrics and intervals",
+    "all10seed classwise metrics",
+    "retained-pair diversity",
+    "MI false-positive statement counts at0.5 for original components/blend; no new clinical adjudication"
+  ],
+  "model_seed_uncertainty": {
+    "model_bootstrap_draws": 10000,
+    "seed": 2026102802,
+    "sampling": "five models with replacement within each original family; diagonal identical-model gain0; shared encoder fixed",
+    "permutation": "enumerate all252assignments of ten fitted-model identities to two groups of five; all45pair gains; primary statistic cross-pair gain minus mean within-group gain",
+    "interpretation": "model-label permutation reference conditional on exchangeability, not randomized causal evidence; shared-encoder dependence makes unconditional p-value interpretation unjustified"
+  },
+  "N8": "license-check before preparing record-ID keyed score and fitted-head release; public repo/DOI require actual authenticated publication",
+  "new_control": "separately frozen five-seed supervised ResNet on exact JEPA eight-lead250Hz rounded waveform input, original ResNet recipe; stage only after correctness/capacity checks; no result asserted before execution",
+  "ethics_and_human_review": "do not invent an institutional determination, funding/ORCID or human/clinician signoff",
+  "no_changes_to_sealed_protocol": true
+}

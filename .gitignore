@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+reproduced*/
+.DS_Store
+metadata.csv
+code.csv
+*.dat
+*.hea
+*.h5
+*.hdf5
+.env
+.env.*

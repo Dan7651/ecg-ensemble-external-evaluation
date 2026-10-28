@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "independently_reproduced_csv_rows": {
+    "all_pair_diversity.csv": 270,
+    "oracle_selector_bound.csv": 45,
+    "diversity_summary.csv": 108,
+    "leave_one_seed_out.csv": 22,
+    "excluded_norm_statement_rates.csv": 72,
+    "prior_misspecification.csv": 49
+  },
+  "no_extra_model_or_waveform_execution": true,
+  "crossed_full1000_not_rerun": true
+}

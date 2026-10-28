@@ -1,0 +1,43 @@
+{
+  "author": "Muhammad Adnan",
+  "date": "2026-10-28",
+  "scope": "Additional post hoc analyses requested in supplied revision; prior results already viewed; not an independent registration",
+  "M1": {
+    "diversity": "All45 unique RR/JJ/RJ pairs: Pearson scores, binary-error phi, decision disagreement, classwise and macro; primary cyclic blocks highlighted",
+    "oracle": "Unattainable per-record-per-class label-informed component selector: max for positives and min for negatives; an optimistic bound, never a model"
+  },
+  "M2": {
+    "population": "4587 previously unmapped SPH records",
+    "endpoints": "Original unchanged component/blend NORM score>=.5 rates per source statement; AF and flutter explicit; no clinical relabeling"
+  },
+  "M3": "Prepare cardiologist review materials only; no clinical signoff or coauthor invented",
+  "M4": "Audit prior fold9/10 access first. Use existing exact-model held-out scores if available; otherwise separately lock descriptive inference with no retuning. Never describe historically viewed folds as fresh confirmation.",
+  "M5": {
+    "prior_factors": [
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0
+    ],
+    "invalid": "No silent clipping: any factor*pi>=1 is invalid for that class and all-five macro; four-abnormal-target summary separately labelled",
+    "evaluation": "Original illustrative blend, fixed source prevalence and transported vector; alter assumed prevalence only, no fitted thresholds; prevalence estimate need not use per-record labels although this diagnostic uses empirical target prevalence"
+  },
+  "M6": {
+    "leave_one_out": "Omit each R or J seed separately; primary cyclic edges retained if both endpoints remain; all45 pair sensitivity separately",
+    "crossed": {
+      "draws": 1000,
+      "seed": 2026102810,
+      "scheme": "Resample5wholemodels/family with replacement and target patients with replacement in same draw; all10within-family and25cross-family positions; identical-fit duplicate edges have zero gain",
+      "interpretation": "Finite-five-model exploratory resampling diagnostic, not reliable population-level seed inference"
+    }
+  },
+  "M7": "One external site and one pretrained encoder; no second cohort/encoder added; narrower title and abstract scope",
+  "constraints": [
+    "Preserve original models, mapping, eligibility and primary endpoints",
+    "No publication/ethics/clinical-review or human-verification claim without actual evidence",
+    "Keep all adverse endpoints; no best-seed or threshold selection"
+  ]
+}

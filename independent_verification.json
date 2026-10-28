@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "source_sha256": "24e32e067fe5a75f2372014026b4ecdc6d3f0435966ab6dc22918956e7d65ff2",
+  "analysis_completion_sha256": "c87e2ac7d1831c01f5ad0339f19d98e530569be414135f51b58cacb1bb89bada",
+  "checks": [
+    "all_output_hashes",
+    "component_mean_sample_sd",
+    "three_paired_f1_intervals",
+    "145_operating_point_counts_and_npv_intervals",
+    "error_disagreement_counts",
+    "excluded_patterns_total",
+    "25_code_map",
+    "50_seed_class_results",
+    "model_resampling_percentiles",
+    "youngest_support_percentiles"
+  ],
+  "scope": "Independent saved-artifact arithmetic; no real model execution or full underlying bootstrap replay"
+}

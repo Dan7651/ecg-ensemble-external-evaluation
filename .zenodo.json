@@ -1,0 +1,28 @@
+{
+  "title": "ECG Ensemble External Evaluation: Reproducible Scores and Analyses of Two Pipelines",
+  "upload_type": "software",
+  "description": "Software, public-record-ID probability exports, fitted classification heads and fixed statistical analyses accompanying an external validation study of two ECG pipelines. Includes five-seed same/mixed-family controls, input matching, population and ontology sensitivities, calibration and threshold diagnostics, and a descriptive historically viewed PTB-XL reference. One external hospital and one frozen encoder; no untouched confirmation or clinical-device claim. Raw waveforms, patient-group identifiers and demographics are excluded. Own code/heads MIT; derived scores/own numerical exports CC0; bundled protocol CC-BY-4.0. See per-component notices.",
+  "creators": [
+    {
+      "name": "Adnan, Muhammad"
+    }
+  ],
+  "version": "0.4.1",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "electrocardiography",
+    "external validation",
+    "ensembles",
+    "calibration",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23684380",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Version DOI reserved before sealing:10.5281/zenodo.23729209. Public distribution repository:https://github.com/Dan7651/ecg-ensemble-external-evaluation. Component licenses are specified in THIRD_PARTY_NOTICES.md."
+}
