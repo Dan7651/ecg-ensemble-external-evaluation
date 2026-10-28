@@ -1,0 +1,7 @@
+{
+  "verified": true,
+  "excluded_groups_checked": 4,
+  "arms_per_group": 3,
+  "prior_class_threshold_and_f1_checks": 33,
+  "invalid_priors_explicitly_checked": true
+}

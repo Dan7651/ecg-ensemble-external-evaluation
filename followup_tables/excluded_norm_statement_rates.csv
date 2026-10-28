@@ -1,0 +1,73 @@
+statement_group,arm,records,NORM_positive,NORM_positive_rate
+AF,resnet,285,50,0.17543859649122806
+AF,jepa,285,11,0.03859649122807018
+AF,blend,285,28,0.09824561403508772
+Atrial flutter,resnet,7,0,0.0
+Atrial flutter,jepa,7,0,0.0
+Atrial flutter,blend,7,0,0.0
+AF or flutter,resnet,292,50,0.17123287671232876
+AF or flutter,jepa,292,11,0.03767123287671233
+AF or flutter,blend,292,28,0.0958904109589041
+Only sinus-node statements,resnet,2824,2511,0.8891643059490085
+Only sinus-node statements,jepa,2824,2363,0.8367563739376771
+Only sinus-node statements,blend,2824,2482,0.8788951841359773
+Other non-AF/flutter statements,resnet,1471,840,0.5710401087695445
+Other non-AF/flutter statements,jepa,1471,721,0.49014276002719237
+Other non-AF/flutter statements,blend,1471,793,0.5390890550645819
+21: Sinus tachycardia,resnet,448,322,0.71875
+21: Sinus tachycardia,jepa,448,258,0.5758928571428571
+21: Sinus tachycardia,blend,448,304,0.6785714285714286
+22: Sinus bradycardia,resnet,1696,1472,0.8679245283018868
+22: Sinus bradycardia,jepa,1696,1373,0.8095518867924528
+22: Sinus bradycardia,blend,1696,1450,0.8549528301886793
+23: Sinus arrhythmia,resnet,1196,1095,0.9155518394648829
+23: Sinus arrhythmia,jepa,1196,1082,0.9046822742474916
+23: Sinus arrhythmia,blend,1196,1097,0.9172240802675585
+30: Atrial premature complex(es),resnet,314,194,0.6178343949044586
+30: Atrial premature complex(es),jepa,314,176,0.5605095541401274
+30: Atrial premature complex(es),blend,314,186,0.5923566878980892
+"31: Atrial premature complexes, nonconducted",resnet,2,0,0.0
+"31: Atrial premature complexes, nonconducted",jepa,2,1,0.5
+"31: Atrial premature complexes, nonconducted",blend,2,0,0.0
+36: Junctional premature complex(es),resnet,42,36,0.8571428571428571
+36: Junctional premature complex(es),jepa,42,27,0.6428571428571429
+36: Junctional premature complex(es),blend,42,28,0.6666666666666666
+37: Junctional escape complex(es),resnet,2,1,0.5
+37: Junctional escape complex(es),jepa,2,1,0.5
+37: Junctional escape complex(es),blend,2,1,0.5
+50: Atrial fibrillation,resnet,285,50,0.17543859649122806
+50: Atrial fibrillation,jepa,285,11,0.03859649122807018
+50: Atrial fibrillation,blend,285,28,0.09824561403508772
+51: Atrial flutter,resnet,7,0,0.0
+51: Atrial flutter,jepa,7,0,0.0
+51: Atrial flutter,blend,7,0,0.0
+54: Junctional tachycardia,resnet,8,5,0.625
+54: Junctional tachycardia,jepa,8,4,0.5
+54: Junctional tachycardia,blend,8,4,0.5
+60: Ventricular premature complex(es),resnet,660,373,0.5651515151515152
+60: Ventricular premature complex(es),jepa,660,305,0.4621212121212121
+60: Ventricular premature complex(es),blend,660,350,0.5303030303030303
+80: Short PR interval,resnet,10,9,0.9
+80: Short PR interval,jepa,10,9,0.9
+80: Short PR interval,blend,10,9,0.9
+81: AV conduction ratio N:D,resnet,1,0,0.0
+81: AV conduction ratio N:D,jepa,1,0,0.0
+81: AV conduction ratio N:D,blend,1,0,0.0
+120: Right-axis deviation,resnet,133,72,0.5413533834586466
+120: Right-axis deviation,jepa,133,65,0.48872180451127817
+120: Right-axis deviation,blend,133,72,0.5413533834586466
+121: Left-axis deviation,resnet,108,7,0.06481481481481481
+121: Left-axis deviation,jepa,108,8,0.07407407407407407
+121: Left-axis deviation,blend,108,8,0.07407407407407407
+125: Low voltage,resnet,236,126,0.5338983050847458
+125: Low voltage,jepa,236,105,0.4449152542372881
+125: Low voltage,blend,236,116,0.4915254237288136
+148: Prolonged QT interval,resnet,5,0,0.0
+148: Prolonged QT interval,jepa,5,0,0.0
+148: Prolonged QT interval,blend,5,0,0.0
+152: TU fusion,resnet,4,0,0.0
+152: TU fusion,jepa,4,0,0.0
+152: TU fusion,blend,4,0,0.0
+155: Early repolarization,resnet,31,30,0.967741935483871
+155: Early repolarization,jepa,31,29,0.9354838709677419
+155: Early repolarization,blend,31,30,0.967741935483871

@@ -1,0 +1,12 @@
+{
+  "verified": true,
+  "error_phi_matthews_checks": 225,
+  "oracle_brier_independent_pointwise_min_checks": 45,
+  "oracle_auc_bounds_checked": 45,
+  "crossed_underlying_draws_independently_checked": [
+    0,
+    1
+  ],
+  "all1000_crossed_percentile_arithmetic_verified": true,
+  "no_neural_or_waveform_execution": true
+}

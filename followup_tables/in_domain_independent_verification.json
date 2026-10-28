@@ -1,0 +1,14 @@
+{
+  "verified": true,
+  "records": 4304,
+  "chunks": 17,
+  "aligned_metadata": true,
+  "original_and_all10_single_and15_pair_metrics_verified": true,
+  "calibration_score_equation_checks": 45,
+  "independent_underlying_patient_draws": 6,
+  "all6000_stored_draw_interval_arithmetic_verified": true,
+  "recorded_runtime_warm_replays": 12,
+  "no_local_checkpoint_or_waveform_execution": true,
+  "not_fresh_confirmation": true,
+  "assessment_sha256": "f47c8019e60db7319d8b1f9e278eba122babb7dd9b68252ec0b4092ee1417ba9"
+}
