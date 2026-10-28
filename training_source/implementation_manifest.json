@@ -1,0 +1,33 @@
+{
+  "version": "1",
+  "scientific_protocol_doi": "10.5281/zenodo.23684380",
+  "scientific_protocol_sha256": "d9056ac4df9311e529e31f9e13720ee4f4b79e36d182a1a9220f466e5e39ba90",
+  "source_sha256": "c40e93b733a77accc61fd637978e3208fd67badd77fb6531b0647b2ee959f739",
+  "files": {
+    "README_A01.md": "ce2d23e903a730fa628dc05835f92f5eafd5046f5d17e3c217676fa13fdd7a79",
+    "a01_matched_fits.py": "c40e93b733a77accc61fd637978e3208fd67badd77fb6531b0647b2ee959f739",
+    "cpu_review_receipt.json": "c0a103542075a5a207d8959fac24744766c298741144d6ca3f818945e3cd5f3f",
+    "cpu_tests.log": "76c5f97baca889c9b583ec88a22745c6e51127fb92f70ba7691602a05fef3467",
+    "deposited_protocol/JBHI_INSTRUCTIONS_CHECK.md": "9a811a54db79bb9441d35d2c093d9bcb667d17113ea28696f167ae00db8fb56f",
+    "deposited_protocol/POST_CONTROL_MANUSCRIPT_PLAN.md": "65f646eb645a9165c33bc698350110905385441462f3acb304655e6f56522802",
+    "deposited_protocol/PROTOCOL.md": "d9056ac4df9311e529e31f9e13720ee4f4b79e36d182a1a9220f466e5e39ba90",
+    "deposited_protocol/README.md": "a35f81a2134675661792a185dbcb3ece87053b945ea36aa08bc26d433bef4f65",
+    "deposited_protocol/analysis_core.py": "e3d6575fd3b10af3059228b47772765c14ac3f82c7e7e53dc1b7b590491cf26a",
+    "deposited_protocol/analysis_registry.json": "4c934430701c4d59117903c38d8046b1eb92f0ea7ff52e926d7ade3707ce864f",
+    "deposited_protocol/bundle_manifest.json": "54ea6a04a8eabbfaf140e2806ca8324c189e65a2f921b6e4e7d53063abae2833",
+    "deposited_protocol/deposit_gate.py": "037129484db1bf6556b4a0084e4f8b229d66496a9e09ce441b2696db61f2957f",
+    "deposited_protocol/deposit_receipt.json": "2b24ff6501a80f7064e3167a68e38f6c20b69c1da26a2d9b64ade37ed554de03",
+    "deposited_protocol/protocol_bundle.zip": "2eb3a319832673cf9aff9a758b9c9002e58c220dd025d7bfcbd4e0707b12e13c",
+    "deposited_protocol/requirements-analysis.txt": "b469c5501ad4895896a90327fc54642d77fb5f1962bd9865e2e3e6fd2d8e83f5",
+    "deposited_protocol/seal_phase1.py": "cfec231d04f146f797283f624711259a1d7ef119beac746d45bca92729c3962a",
+    "deposited_protocol/source_recipe_pins.json": "25899bff1b9f1ae69d70c0e817750c57ebb9e3e4917969d3a41a91ebb6f3a93a",
+    "deposited_protocol/test_analysis_core.py": "ed25121e7819ffec39e6261323f015672dd8f7c990ae9d07b110b89104ad81ff",
+    "deposited_protocol/test_deposit_gate.py": "347fcd3b6c69546092b006128b98ca867db707a2e67809614e8e1c28033502bb",
+    "input_pins.json": "c237cf3e9908abce25ae14269aee76dec66f06ec0c2fd5ab04b614c606cc45f8",
+    "multiscale_waveform_dev8.py": "79bb48ea71a033f21dfd734c5fbc4fbb3dc0823be4c2cdd2137f47b5494bc44e",
+    "provenance/amplitude_manifest.json": "7c7530f471418653d9463ab9bbbcf7e0ca5bebcaa8cddce33265113d6ceb8458",
+    "provenance/original_jepa_head_protocol.json": "19defb501979584670da11d4f584ec7a5735b4d91450db5c4516c41493d22d6e",
+    "test_a01_matched_fits.py": "44456eabc296035e39780f415d3670f5bfc5eac557b3ebef665073ac1781beba"
+  },
+  "contains_patient_data_or_weights": false
+}

@@ -1,0 +1,13 @@
+test_01_source_extraction_no_top_level_execution (__main__.Guards.test_01_source_extraction_no_top_level_execution) ... ok
+test_02_strict_selection_and_small_unselected_improvement (__main__.Guards.test_02_strict_selection_and_small_unselected_improvement) ... ok
+test_03_exact_tiny_optimizer_scheduler_scaler_rng_resume (__main__.Guards.test_03_exact_tiny_optimizer_scheduler_scaler_rng_resume) ... ok
+test_04_nonfinite_gradient_fails_before_update (__main__.Guards.test_04_nonfinite_gradient_fails_before_update) ... ok
+test_05_checkpoint_generation_recovery_and_protocol_guard (__main__.Guards.test_05_checkpoint_generation_recovery_and_protocol_guard) ... ok
+test_06_cache_copy_missing_only_and_preserve_corruption (__main__.Guards.test_06_cache_copy_missing_only_and_preserve_corruption) ... ok
+test_07_saved_feature_normalization_exact_transform (__main__.Guards.test_07_saved_feature_normalization_exact_transform) ... ok
+test_08_completed_endpoint_integrity_and_idempotent_json (__main__.Guards.test_08_completed_endpoint_integrity_and_idempotent_json) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 4.297s
+
+OK

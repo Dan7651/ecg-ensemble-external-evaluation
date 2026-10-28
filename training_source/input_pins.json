@@ -1,0 +1,31 @@
+{
+  "amplitude_manifest_sha256": "7c7530f471418653d9463ab9bbbcf7e0ca5bebcaa8cddce33265113d6ceb8458",
+  "original_jepa_head_protocol_sha256": "19defb501979584670da11d4f584ec7a5735b4d91450db5c4516c41493d22d6e",
+  "cache_files": {
+    "ecg_filtered_mv_100hz.npy": "f586199b9816cc5f71bed2220952437e2bd122b9efdb73f8a7cd1e194da93b53",
+    "labels_and_folds.npz": "79f69a27dcfc4aab024a8154ed32966bf6d2d1dfa18773e2f1090350bad9d5d7"
+  },
+  "feature_chunks": {
+    "000000.npz": "dd8330837a4a881db8b88dbce3580b1f0db05de186d6c527dbfe5f74f9ad1c7f",
+    "001024.npz": "62d58721dda8b9007d56b5d99b8de51e43b035a2ec42c363123421ced2c84728",
+    "002048.npz": "0febe33bc156c1ee6c5665c3bbc6bdfce7c0efd7b8502bcedc7a1d984c7cabed",
+    "003072.npz": "15d933b6160bbd3417d4fdffba01dcd6c43758161f30f9c63af20fabd0f27d27",
+    "004096.npz": "a0abcbada3f13da2dcaa9b0447277cbd2bd3b7b2dfa501667c5e36fdf73a902a",
+    "005120.npz": "0f02e9c1a7a62dce45eb0d96c3085c82601d18430e89e4af0a9b6a067e78a9f7",
+    "006144.npz": "d7f0df68f42639277fa78868a36ccbce83733a54011f071451855fd6c43b0516",
+    "007168.npz": "48819df0678707cefe5baacff10d1487259559bc644c3f225299e965340d2d08",
+    "008192.npz": "61c16cb90d933a27a93d701cdb5ff3fd81d1aab0c5964d02a90339606a10c970",
+    "009216.npz": "36052a5c5e418c2f712f72eacff8ad6efd5fa76dab76ae77810af41f314a8215",
+    "010240.npz": "7ffc3ad0042029c5c5655d12bced9bc830e54ff0c3c63db2f01d1178861c2ee2",
+    "011264.npz": "2e93a0f4c5a6b3c67253ebed72de18198b64429cfb80cdc5f6dcba10382e5e49",
+    "012288.npz": "99ac308acbc576c97813d56c4c7145a15f7a88f467ba396f29e1cf6478561b7f",
+    "013312.npz": "aebe64efd6e7f8d7705298cec5cadf87e8244c2f90c9ab59c1dcb31603ccd7c1",
+    "014336.npz": "e0e17167f393d5799d53eb515dbf26db76a1f5734f31df71f29edd2d24fbfba7",
+    "015360.npz": "443449243a856c37498bb3e2563eec20915e0ecf5517a594fd27c5dd21b90a5e",
+    "016384.npz": "0d6bd9def5b835a263b52daa5aacb0afd0028a203a428d1e576198377b782db8"
+  },
+  "encoder_checkpoint_sha256": "61334869f905a7d6de32bc573c60024eaf6efba7c35c0e45fc2ea7d52b6ff66e",
+  "encoder_commit": "d937ad2c2c8a1e22856ce7e4a23a30f84a71217c",
+  "existing_cache_only": true,
+  "no_raw_downloads_or_encoder_extraction": true
+}

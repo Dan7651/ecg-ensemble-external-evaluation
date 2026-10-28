@@ -1,0 +1,44 @@
+{
+  "observed_utc": "2026-10-27T08:41:04.767243+00:00",
+  "passed": true,
+  "bounded_cpu_checks": 8,
+  "source_sha256": "c40e93b733a77accc61fd637978e3208fd67badd77fb6531b0647b2ee959f739",
+  "test_source_sha256": "44456eabc296035e39780f415d3670f5bfc5eac557b3ebef665073ac1781beba",
+  "actual_test_log_sha256": "76c5f97baca889c9b583ec88a22745c6e51127fb92f70ba7691602a05fef3467",
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.2.2",
+    "numpy": "1.26.4",
+    "scipy": "1.12.0",
+    "sklearn": "1.5.2"
+  },
+  "real_architecture_or_waveforms_or_pretrained_weights_loaded_locally": false,
+  "real_gpu_replay_or_capacity_verified": false,
+  "initial_technical_failure": {
+    "checks_failed": 2,
+    "cause": "Local CPU Torch 2.2.2 has no torch.amp.GradScaler",
+    "resolution": "Disabled CPU-only compatibility scaler; original modern CUDA branch unchanged",
+    "training_started": false
+  },
+  "scientific_protocol_changed": false,
+  "reviewer": "root agent source review; no independent reviewer claimed",
+  "review_scope": [
+    "Original ResNet class AST and pinned byte hash preserved",
+    "Original fitting/development rows, label order and training recipes audited",
+    "Training-only lead normalization and feature StandardScaler",
+    "Exact tiny synthetic optimizer/scheduler/scaler/all-RNG continuation",
+    "Nonfinite gradient fails before optimizer update",
+    "Alternating committed checkpoint recovery; incomplete generations retained",
+    "Completed-fit and all-ten-fit idempotency guards",
+    "Selected checkpoint fresh runtime replay required",
+    "Original checkpoints/cache preserved; no external inference in runner"
+  ],
+  "remaining_remote_gates": [
+    "Live public protocol check",
+    "Actual connected authorized T4 and readable existing cache",
+    "Full input hash/ID/patient split verification",
+    "Actual T4 finite-gradient and exact continuation checks",
+    "Actual training-only capacity gate",
+    "Post-fit independent persisted artifact verification after remount"
+  ]
+}
