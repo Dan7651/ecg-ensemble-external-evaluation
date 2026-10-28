@@ -1,46 +1,48 @@
 # ECG ensemble external evaluation
 
-**Author:** Muhammad Adnan. **Prepared version:**0.4.1 (28October2026). PUBLICATION_STATUS.json records the state at artifact sealing. Current publication state is reported by the version DOI landing page.
+**Author:** Muhammad Adnan. Analysis and training scripts, pinned environments, aggregate data and numerical tables are browsable directly in this repository. The complete immutable release, including score exports, fitted heads and provenance, remains available as a checksum-verified artifact.
 
-Reproducible scores and analyses for *Complementarity and Transfer Limits of Two ECG Pipelines*. The related published protocol is [10.5281/zenodo.23684380](https://doi.org/10.5281/zenodo.23684380), not the software DOI. Software version DOI: [10.5281/zenodo.23729209](https://doi.org/10.5281/zenodo.23729209). Repository: https://github.com/Dan7651/ecg-ensemble-external-evaluation.
+- Software v0.4.1: [10.5281/zenodo.23729209](https://doi.org/10.5281/zenodo.23729209)
+- Separate prospective-extension protocol: [10.5281/zenodo.23684380](https://doi.org/10.5281/zenodo.23684380)
+- Additional post hoc definition sensitivities: see [REVISION_V12.md](REVISION_V12.md). These repository extensions are not represented as having been in the earlier immutable deposit or prospective protocol.
 
-## Contents
-
-- Four gzip CSVs of exact FP32 probabilities keyed by public SPH ECG_ID. No waveforms, patient-group identifiers or demographic/date fields are redistributed.
-- Five small fitted nonlinear heads with checkpoint hashes/provenance. They require the separately obtained frozen encoder and feature scaler.
-- Statistical code, fixed seeds, original training/source records, full-precision tables and stored conditional uncertainty draws.
-- Environment pins and commands for each family of tables and figures.
-
-## Quick checks
+## Reproduce the main aggregate tables and figures from a clone
 
 ```sh
+git clone https://github.com/Dan7651/ecg-ensemble-external-evaluation.git
+cd ecg-ensemble-external-evaluation
 python -m venv .venv
 .venv/bin/python -m pip install -r requirements-analysis.txt
-.venv/bin/python verify_release.py
-.venv/bin/python -m unittest test_analysis_core.py
+.venv/bin/python reproduce.py --all
 ```
 
-## Reproduce
+Aggregate rendering reconstructs stored estimates and intervals; it does not repeat model inference or all bootstrap draws. Use `--table original`, `controls`, `sensitivity`, `thresholds` or `calibration` for individual tables. The code and data used by these commands are native repository files.
 
-Acquire the exact original public SPH metadata.csv and code.csv from Figshare records17912441 and17912507. These source-release files are acquired separately and joined locally. The CLI requires the pinned metadata hash before joining labels/grouping locally.
+## Verify the complete frozen release and recompute from scores
+
+Some fitted-head, probability and legacy provenance assets remain in the release ZIP. Restore them into a separate versioned directory with one command, preserving the browsable repository files:
 
 ```sh
-python reproduce.py --all
-python reproduce_scores.py --metadata /path/to/metadata.csv
-python reproduce_input_view.py --metadata /path/to/metadata.csv
-python reproduce_followup.py --metadata /path/to/metadata.csv --codebook /path/to/code.csv
-python render_followup.py
-python render_in_domain_reference.py
+.venv/bin/python extract_verified_release.py
+cd sealed_v0.4.1
+../.venv/bin/python verify_release.py
+../.venv/bin/python -m unittest test_analysis_core.py
+../.venv/bin/python reproduce_scores.py --metadata /path/to/metadata.csv
 ```
 
-Use `reproduce.py --table original`, `--table controls`, `--table sensitivity`, `--table thresholds` or `--table calibration` for individual main tables. Use `--figure matched_controls`, `--figure transfer_diagnostics` or `--figure calibration_review` for individual established figures. See REPRODUCIBILITY.md and OUTPUT_INDEX.md for the precise evidence source and command map. Aggregate rendering redraws stored results; it does not rerun every underlying inference or bootstrap.
+The extraction command verifies the complete ZIP SHA256 and all 151 sealed file hashes; it refuses to overwrite differing files. Run the original strict `verify_release.py` **inside `sealed_v0.4.1`**, where the original README and full manifest are preserved. The repository README and additional revision scripts are maintained separately from that immutable release.
 
-Append `--bootstrap 2000` to reproduce_input_view.py to recompute its patient intervals. Append `--crossed` to reproduce_followup.py to recompute1000model–patient draws; these CPU jobs are optional and can take time. Default commands never start model training, download datasets or allocate a GPU.
+Obtain exact original public SPH `metadata.csv` and `code.csv` from Figshare records 17912441 and 17912507. Commands check the pinned metadata hash before joining labels or patient grouping. No patient-group IDs, demographics or raw waveforms are redistributed. See the sealed `REPRODUCIBILITY.md` and repository `OUTPUT_INDEX.md` for command coverage, fitted-head requirements and interval recomputation options.
 
-## Interpretation
+## Revision v12 outputs
 
-One external hospital, one frozen encoder, five fits per family, historically viewed outcomes. Same-encoder controls vary head seeds, not independent pretraining. Error complementarity is observed; a causal representation mechanism is not identified. Calibration/threshold and population findings, including adverse endpoints, remain part of the evidence. The descriptive PTB-XL folds9/10 audit is not untouched confirmation. Clinical review remains pending.
+From the repository root:
 
-## Terms
+```sh
+.venv/bin/python reproduce_definition_sensitivity_v12.py --release sealed_v0.4.1 --metadata /path/to/metadata.csv
+.venv/bin/python render_empirical_curves_v12.py --release sealed_v0.4.1 --metadata /path/to/metadata.csv
+```
 
-Own code/fitted heads: MIT. Scores/own numerical exports: CC0. The protocol and upstream components retain separate terms; read THIRD_PARTY_NOTICES.md. Do not interpret research targets as adjudicated diagnoses or use these artifacts as a clinical device.
+These commands use existing scores only. They do not fit models, thresholds or fusion weights. Five-seed inclusion scores are unavailable, so no such result is inferred. Clinical adjudication remains pending. Historical outcome access, one hospital, one encoder and finite-five-fit limitations qualify interpretation; no untouched confirmation, clinical-device certification, novel architecture or matched published benchmark victory is claimed.
+
+Own code/fitted heads: MIT. Derived scores/own numerical exports: CC0. Protocol and upstream components retain their separate terms; see `THIRD_PARTY_NOTICES.md` and the sealed release. Large pretrained encoders and raw ECGs are excluded.

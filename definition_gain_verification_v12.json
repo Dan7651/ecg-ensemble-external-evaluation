@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "method": "Independent Mann-Whitney rank-sum AUROC, not sklearn ROC integration",
+  "checked_original_scenarios": 6,
+  "checked_seed_pairs": 25,
+  "maximum_absolute_error": 3.3306690738754696e-16,
+  "exclusive_group_counts": [
+    285,
+    7,
+    2824,
+    1471
+  ]
+}
