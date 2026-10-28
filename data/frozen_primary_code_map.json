@@ -1,0 +1,14 @@
+{
+  "source": "https://www.nature.com/articles/s41597-022-01403-5.pdf",
+  "collection": "10.6084/m9.figshare.c.5779802.v1",
+  "class_order": ["NORM", "MI", "STTC", "CD", "HYP"],
+  "groups": {
+    "NORM": [1],
+    "MI": [160,161,165,166],
+    "STTC": [145,146,147,153],
+    "CD": [82,83,84,85,86,87,88,101,102,104,105,106,108],
+    "HYP": [140,142,143]
+  },
+  "primary_eligibility": "At least one mapped target; technical checks required. Normal coexisting with any abnormal primary code stops scoring.",
+  "notes": "Research harmonization, not validated semantic equivalence to SCP superclasses. Modifiers do not add targets. Code153 maps to STTC only. No normal label inferred from sinus rhythm."
+}

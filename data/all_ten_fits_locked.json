@@ -1,0 +1,207 @@
+{
+  "global_protocol_sha256": "f20a2d7368185fb2173d038f6cbc990ae4a97a0f223770df0bf9a32ec27976d7",
+  "endpoints": [
+    {
+      "family": "resnet",
+      "seed": 101,
+      "protocol_sha256": "ebd3a4b761c1baa0e2856657378b61c977eb7bac1ac575d2ca1f765677cc9ed5",
+      "completed_epochs": 16,
+      "selected_epoch": 10,
+      "updates": 3744,
+      "development_metrics": {
+        "macro_auroc": 0.9390681731324321,
+        "macro_ap": 0.846936650513886,
+        "macro_f1_at_0_5": 0.7540699434586144
+      },
+      "checkpoint_sha256": "3e8f9667462b76ab8f7427f2107b2d470746392e078ce6c72a1750d58665fec9",
+      "prediction_sha256": "cd183cbc0f48958505e4badc9283a13d8d2efc872d83dc04eb19e6d2eff63284",
+      "exact_fresh_saved_best_replay": true,
+      "source_sha256": "c40e93b733a77accc61fd637978e3208fd67badd77fb6531b0647b2ee959f739",
+      "no_external_inference": true,
+      "no_fold9_or_10_prediction": true,
+      "checkpoint_persistence_after_remount_verified": false
+    },
+    {
+      "family": "resnet",
+      "seed": 202,
+      "protocol_sha256": "8259cd0f5bbd7ca256e918d63139e9a406b26aa56e068676522f6681d3b75ad9",
+      "completed_epochs": 16,
+      "selected_epoch": 10,
+      "updates": 3744,
+      "development_metrics": {
+        "macro_auroc": 0.9397473155219176,
+        "macro_ap": 0.8437079943204449,
+        "macro_f1_at_0_5": 0.7585996647011358
+      },
+      "checkpoint_sha256": "03970bef65479b6b2e27c515153b9abb214bb6c5e16a4d766afab1cefb00e44f",
+      "prediction_sha256": "d0a116192902856958d9d42b3bac6b32f50ea9869a535d48c5c6a0eef61b2806",
+      "exact_fresh_saved_best_replay": true,
+      "source_sha256": "c40e93b733a77accc61fd637978e3208fd67badd77fb6531b0647b2ee959f739",
+      "no_external_inference": true,
+      "no_fold9_or_10_prediction": true,
+      "checkpoint_persistence_after_remount_verified": false
+    },
+    {
+      "family": "resnet",
+      "seed": 303,
+      "protocol_sha256": "7f3baeb1d6b94cb9773ef789787c76fae3c38e5fad175123dc7a6c2f9432b916",
+      "completed_epochs": 18,
+      "selected_epoch": 12,
+      "updates": 4212,
+      "development_metrics": {
+        "macro_auroc": 0.9422669049878513,
+        "macro_ap": 0.8503562953903832,
+        "macro_f1_at_0_5": 0.7581764333833464
+      },
+      "checkpoint_sha256": "a10ed3bc650e92530184dbcfa1fd31f098198062e030501f96cbcab0653b1c10",
+      "prediction_sha256": "9cb86b50fa770eaad9a2954ee37c0bf104b184c5595665871756ae81e8747a2f",
+      "exact_fresh_saved_best_replay": true,
+      "source_sha256": "c40e93b733a77accc61fd637978e3208fd67badd77fb6531b0647b2ee959f739",
+      "no_external_inference": true,
+      "no_fold9_or_10_prediction": true,
+      "checkpoint_persistence_after_remount_verified": false
+    },
+    {
+      "family": "resnet",
+      "seed": 404,
+      "protocol_sha256": "4f7cfe25d47e76d5ad27e06bdac7d4270f0422bc15caa73f852d54a00207d80b",
+      "completed_epochs": 18,
+      "selected_epoch": 12,
+      "updates": 4212,
+      "development_metrics": {
+        "macro_auroc": 0.9404367265613119,
+        "macro_ap": 0.8489155900283769,
+        "macro_f1_at_0_5": 0.7535187854387411
+      },
+      "checkpoint_sha256": "ce58cb2ed0d3f38aaad523ea27278297b4e30b462bb2e25dbaef4dcd7696ba68",
+      "prediction_sha256": "7c76dc0c0c716fc41b24b460a16854335ed10026baaed03f55630137eeb91f0a",
+      "exact_fresh_saved_best_replay": true,
+      "source_sha256": "c40e93b733a77accc61fd637978e3208fd67badd77fb6531b0647b2ee959f739",
+      "no_external_inference": true,
+      "no_fold9_or_10_prediction": true,
+      "checkpoint_persistence_after_remount_verified": false
+    },
+    {
+      "family": "resnet",
+      "seed": 505,
+      "protocol_sha256": "a08cb121970107e38b1d738dd0776d136a9736e3d94761843d643b1a53a6f7ff",
+      "completed_epochs": 19,
+      "selected_epoch": 13,
+      "updates": 4446,
+      "development_metrics": {
+        "macro_auroc": 0.9400786349389962,
+        "macro_ap": 0.8487080537585795,
+        "macro_f1_at_0_5": 0.7432711003755782
+      },
+      "checkpoint_sha256": "bf007a0e147b5dcb2d7ada6b75ed162724ee6568d45aa3f90f77c798fb283de9",
+      "prediction_sha256": "6576d7b11bb5e5c0b3d16f4113e11017e850604847d3ec0ed0ddca1b55332327",
+      "exact_fresh_saved_best_replay": true,
+      "source_sha256": "c40e93b733a77accc61fd637978e3208fd67badd77fb6531b0647b2ee959f739",
+      "no_external_inference": true,
+      "no_fold9_or_10_prediction": true,
+      "checkpoint_persistence_after_remount_verified": false
+    },
+    {
+      "family": "jepa_head",
+      "seed": 101,
+      "protocol_sha256": "7219df25970b870d3228e265a3da2693347610e16f3650d6602d3c466213d54d",
+      "completed_epochs": 40,
+      "selected_epoch": 35,
+      "updates": 2360,
+      "development_metrics": {
+        "macro_auroc": 0.9351007441098457,
+        "macro_ap": 0.835865079055095,
+        "macro_f1_at_0_5": 0.7382672685770839
+      },
+      "checkpoint_sha256": "f5368a5eb7989f33ce52bb95455b8fbab4ebfec6c7fcae5a84795f6a5633d84d",
+      "prediction_sha256": "2fb25c98648a492fee602709c199831ea5b88240106038ca4d8484ec70e1d6cd",
+      "exact_fresh_saved_best_replay": true,
+      "source_sha256": "c40e93b733a77accc61fd637978e3208fd67badd77fb6531b0647b2ee959f739",
+      "no_external_inference": true,
+      "no_fold9_or_10_prediction": true,
+      "checkpoint_persistence_after_remount_verified": false
+    },
+    {
+      "family": "jepa_head",
+      "seed": 202,
+      "protocol_sha256": "d25283d85ee46694b1c0bcd24fd67a65f413309206fa40bd2d403c9f9b1292ff",
+      "completed_epochs": 40,
+      "selected_epoch": 36,
+      "updates": 2360,
+      "development_metrics": {
+        "macro_auroc": 0.9352315802206492,
+        "macro_ap": 0.8354715615493358,
+        "macro_f1_at_0_5": 0.7389202557743298
+      },
+      "checkpoint_sha256": "e460edcec1977f7f7cafddcd589ff4de3fb7ab7599c30ea1a8cba06ab133c174",
+      "prediction_sha256": "47036ab6ceacb710639f4c630bebc80170438e746cbc4ef38af7e646db09eeb9",
+      "exact_fresh_saved_best_replay": true,
+      "source_sha256": "c40e93b733a77accc61fd637978e3208fd67badd77fb6531b0647b2ee959f739",
+      "no_external_inference": true,
+      "no_fold9_or_10_prediction": true,
+      "checkpoint_persistence_after_remount_verified": false
+    },
+    {
+      "family": "jepa_head",
+      "seed": 303,
+      "protocol_sha256": "d147551e246d7ffdf8a1b18014e22c19bd11c55528f8a138ab17c58e984e64f2",
+      "completed_epochs": 40,
+      "selected_epoch": 38,
+      "updates": 2360,
+      "development_metrics": {
+        "macro_auroc": 0.9354324243074421,
+        "macro_ap": 0.8349145171116655,
+        "macro_f1_at_0_5": 0.7405150463563559
+      },
+      "checkpoint_sha256": "5422a55f9435603b2f83141f30dbd2dce600272c9797079a88bf7ddc69a69c1c",
+      "prediction_sha256": "135deca1d543f714705141dd3fc17c571adddcd783c809210c91b2765f8c3ccb",
+      "exact_fresh_saved_best_replay": true,
+      "source_sha256": "c40e93b733a77accc61fd637978e3208fd67badd77fb6531b0647b2ee959f739",
+      "no_external_inference": true,
+      "no_fold9_or_10_prediction": true,
+      "checkpoint_persistence_after_remount_verified": false
+    },
+    {
+      "family": "jepa_head",
+      "seed": 404,
+      "protocol_sha256": "20457e96b8438e8afe9d5f605d95218cf1ccab14dda7a3f3250cf02d7395816a",
+      "completed_epochs": 40,
+      "selected_epoch": 40,
+      "updates": 2360,
+      "development_metrics": {
+        "macro_auroc": 0.9347884098000939,
+        "macro_ap": 0.83457021232173,
+        "macro_f1_at_0_5": 0.7341353616088232
+      },
+      "checkpoint_sha256": "74a4e38b913ad23a0db055cd331e0682653670f01740451585c5bfc0a05dc6cc",
+      "prediction_sha256": "6c392316fb009152599e2e87bd1f9acc532a850c14aee2b9ac581b6852c4f655",
+      "exact_fresh_saved_best_replay": true,
+      "source_sha256": "c40e93b733a77accc61fd637978e3208fd67badd77fb6531b0647b2ee959f739",
+      "no_external_inference": true,
+      "no_fold9_or_10_prediction": true,
+      "checkpoint_persistence_after_remount_verified": false
+    },
+    {
+      "family": "jepa_head",
+      "seed": 505,
+      "protocol_sha256": "b5d55060d274f7907afeec80bfd47f96922385843b2f8c37ff49c1a44436e2d3",
+      "completed_epochs": 40,
+      "selected_epoch": 40,
+      "updates": 2360,
+      "development_metrics": {
+        "macro_auroc": 0.9359566402815824,
+        "macro_ap": 0.8372668328826098,
+        "macro_f1_at_0_5": 0.7403600128519161
+      },
+      "checkpoint_sha256": "182968010d8dd34510a4d8279c477d25a675a10676acd4fb3426de992c075697",
+      "prediction_sha256": "9d0bb705995c6a4b0ffbce700b5f76b81f17401bbef3c0f57f9b370435ad2c21",
+      "exact_fresh_saved_best_replay": true,
+      "source_sha256": "c40e93b733a77accc61fd637978e3208fd67badd77fb6531b0647b2ee959f739",
+      "no_external_inference": true,
+      "no_fold9_or_10_prediction": true,
+      "checkpoint_persistence_after_remount_verified": false
+    }
+  ],
+  "no_external_inference": true,
+  "completed_utc": "2026-10-27T11:17:10.082033+00:00"
+}

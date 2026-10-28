@@ -1,0 +1,27 @@
+{
+  "verified": true,
+  "plan_sha256": "64f442234ab7b7d7c9cd99a69a753e5f7a334da0f55db5a5418b197089982ecb",
+  "assessment_sha256": "e2afe16fce42360bd3e1b512638af397cbc993117fc7aaff75e0cf153f67bca7",
+  "actual_records": 21183,
+  "patients": 20401,
+  "all83_prediction_hashes_verified": true,
+  "all_original_scores_ids_patients_labels_exact": true,
+  "all40_macro_and_classwise_metrics_independently_recomputed": true,
+  "all2000_stored_contrasts_and_intervals_recomputed": true,
+  "independently_rerun_macro_draws": [
+    0,
+    499,
+    999,
+    1499,
+    1999
+  ],
+  "literal_expanded_patient_draws": [
+    0,
+    1999
+  ],
+  "maximum_independent_error": 1.0685896612017132e-15,
+  "actual_checkpoint_or_waveform_execution_local": false,
+  "runtime_exact_source_replay_recorded": true,
+  "persisted_checkpoint_hashes": "Actual remount receipt checked against prelocked file pins; real checkpoint bytes not deserialized or locally replayed",
+  "claims": "Post hoc previously viewed cohort; conditional intervals; no benchmark win, paradigm causality or untouched confirmation"
+}
