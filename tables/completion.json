@@ -1,0 +1,1044 @@
+{
+  "completed_utc": "2026-10-27T17:26:47.167186+00:00",
+  "source_sha256": "bf22519eefcc3c768dbafcb4902c682d0eceda9ba0fda0a6b131bac9776ff98c",
+  "plan_sha256": "aced89a9590c6f8adb2e477d83e362b2739bcf8c0315ccb2d220615146d610e7",
+  "elapsed_seconds": 26.600403139018454,
+  "post_hoc": true,
+  "original_primary_results_unchanged": true,
+  "no_new_neural_execution": true,
+  "component_mean_and_sd": [
+    {
+      "family": "ResNet",
+      "metric": "auroc",
+      "mean": 0.9370734875074348,
+      "sample_sd": 0.0027859165655488125,
+      "minimum": 0.9326748448670716,
+      "maximum": 0.9401967605472901,
+      "fits": 5
+    },
+    {
+      "family": "ResNet",
+      "metric": "ap",
+      "mean": 0.6923563531284002,
+      "sample_sd": 0.021164326338609506,
+      "minimum": 0.6584823549280581,
+      "maximum": 0.7110237875186776,
+      "fits": 5
+    },
+    {
+      "family": "ResNet",
+      "metric": "f1_at_0_5",
+      "mean": 0.5878750454571209,
+      "sample_sd": 0.027621404284712162,
+      "minimum": 0.5422683430503444,
+      "maximum": 0.6116592473612558,
+      "fits": 5
+    },
+    {
+      "family": "ResNet",
+      "metric": "brier",
+      "mean": 0.06872614410005312,
+      "sample_sd": 0.006937721706340933,
+      "minimum": 0.06308432819996253,
+      "maximum": 0.08044783717421078,
+      "fits": 5
+    },
+    {
+      "family": "JEPA head",
+      "metric": "auroc",
+      "mean": 0.9392277604908102,
+      "sample_sd": 0.0008921127222203126,
+      "minimum": 0.9381748037221473,
+      "maximum": 0.9401794991601111,
+      "fits": 5
+    },
+    {
+      "family": "JEPA head",
+      "metric": "ap",
+      "mean": 0.6976548958365526,
+      "sample_sd": 0.002152510031685287,
+      "minimum": 0.6943593816074991,
+      "maximum": 0.699527555558074,
+      "fits": 5
+    },
+    {
+      "family": "JEPA head",
+      "metric": "f1_at_0_5",
+      "mean": 0.5934769029251682,
+      "sample_sd": 0.0036058939330079406,
+      "minimum": 0.5875163071184146,
+      "maximum": 0.5973259546619688,
+      "fits": 5
+    },
+    {
+      "family": "JEPA head",
+      "metric": "brier",
+      "mean": 0.06233801435341992,
+      "sample_sd": 0.0008479006967346042,
+      "minimum": 0.061403174404723856,
+      "maximum": 0.06349801837109872,
+      "fits": 5
+    }
+  ],
+  "seed202_sensitivity": [
+    {
+      "sensitivity": "all_five",
+      "family": "RR",
+      "metric": "auroc",
+      "blocks": 5,
+      "ensemble_mean": 0.9403698600951692,
+      "gain_mean": 0.0015101449470807272,
+      "gain_sd": 0.0008127475323370098,
+      "gain_min": 0.0009319536153036267,
+      "gain_max": 0.002944764613046047,
+      "positive_blocks": 5,
+      "patient_ci_low": 0.0009435090075139913,
+      "patient_ci_high": 0.0020345247090581605
+    },
+    {
+      "sensitivity": "all_five",
+      "family": "RR",
+      "metric": "ap",
+      "blocks": 5,
+      "ensemble_mean": 0.711742610816631,
+      "gain_mean": 0.004846539162346652,
+      "gain_sd": 0.0025800949142724917,
+      "gain_min": 0.002413579134981081,
+      "gain_max": 0.009219828347301062,
+      "positive_blocks": 5,
+      "patient_ci_low": 0.0013098439598855638,
+      "patient_ci_high": 0.008432358218177727
+    },
+    {
+      "sensitivity": "all_five",
+      "family": "RR",
+      "metric": "f1_at_0_5",
+      "blocks": 5,
+      "ensemble_mean": 0.5954820596743695,
+      "gain_mean": -0.008069132839546555,
+      "gain_sd": 0.010738431904078199,
+      "gain_min": -0.02387880568255818,
+      "gain_max": 0.0026943185440152506,
+      "positive_blocks": 2,
+      "patient_ci_low": -0.010255275008240467,
+      "patient_ci_high": -0.005702992496344072
+    },
+    {
+      "sensitivity": "all_five",
+      "family": "RR",
+      "metric": "brier",
+      "blocks": 5,
+      "ensemble_mean": 0.06577735374638079,
+      "gain_mean": -0.0011800771131622618,
+      "gain_sd": 0.0022981599579788153,
+      "gain_min": -0.004747731915069192,
+      "gain_max": 0.0006553546126411985,
+      "positive_blocks": 2,
+      "patient_ci_low": -0.0013776015759768042,
+      "patient_ci_high": -0.000988425829941074
+    },
+    {
+      "sensitivity": "all_five",
+      "family": "JJ",
+      "metric": "auroc",
+      "blocks": 5,
+      "ensemble_mean": 0.9396803743089608,
+      "gain_mean": -0.00014442267637144736,
+      "gain_sd": 0.00030388541979425025,
+      "gain_min": -0.000544696686999302,
+      "gain_max": 0.00026898948429843195,
+      "positive_blocks": 1,
+      "patient_ci_low": -0.000325708199360456,
+      "patient_ci_high": 2.314202659224032e-05
+    },
+    {
+      "sensitivity": "all_five",
+      "family": "JJ",
+      "metric": "ap",
+      "blocks": 5,
+      "ensemble_mean": 0.698932554545806,
+      "gain_mean": -0.00016657396341472895,
+      "gain_sd": 0.0007830377881191,
+      "gain_min": -0.0010460454213715442,
+      "gain_max": 0.000753746591491633,
+      "positive_blocks": 2,
+      "patient_ci_low": -0.0014221092823500441,
+      "patient_ci_high": 0.0006517649421075464
+    },
+    {
+      "sensitivity": "all_five",
+      "family": "JJ",
+      "metric": "f1_at_0_5",
+      "blocks": 5,
+      "ensemble_mean": 0.5951450240540787,
+      "gain_mean": -0.00029380837980037545,
+      "gain_sd": 0.0021672420591663092,
+      "gain_min": -0.0036423695080848306,
+      "gain_max": 0.0015641120899970717,
+      "positive_blocks": 3,
+      "patient_ci_low": -0.0020209186758915107,
+      "patient_ci_high": 0.0008640134871289751
+    },
+    {
+      "sensitivity": "all_five",
+      "family": "JJ",
+      "metric": "brier",
+      "blocks": 5,
+      "ensemble_mean": 0.06206931388601851,
+      "gain_mean": -0.00028989762340277255,
+      "gain_sd": 0.00031358253030499937,
+      "gain_min": -0.0007665996916483217,
+      "gain_max": 5.8289290073308686e-05,
+      "positive_blocks": 1,
+      "patient_ci_low": -0.000340639007361962,
+      "patient_ci_high": -0.0002366115847090145
+    },
+    {
+      "sensitivity": "all_five",
+      "family": "RJ",
+      "metric": "auroc",
+      "blocks": 5,
+      "ensemble_mean": 0.9449400795955322,
+      "gain_mean": 0.005307927739693574,
+      "gain_sd": 0.0007508529706274755,
+      "gain_min": 0.0045359647489569,
+      "gain_max": 0.00650504065633517,
+      "positive_blocks": 5,
+      "patient_ci_low": 0.004117590860313939,
+      "patient_ci_high": 0.006390515304648262
+    },
+    {
+      "sensitivity": "all_five",
+      "family": "RJ",
+      "metric": "ap",
+      "blocks": 5,
+      "ensemble_mean": 0.7304239176729006,
+      "gain_mean": 0.02797144792779791,
+      "gain_sd": 0.003919816314074401,
+      "gain_min": 0.021159592460969545,
+      "gain_max": 0.031124569592499984,
+      "positive_blocks": 5,
+      "patient_ci_low": 0.021948348723198105,
+      "patient_ci_high": 0.03275603178922919
+    },
+    {
+      "sensitivity": "all_five",
+      "family": "RJ",
+      "metric": "f1_at_0_5",
+      "blocks": 5,
+      "ensemble_mean": 0.6063820190427478,
+      "gain_mean": 0.005874083896589744,
+      "gain_sd": 0.011268518015124622,
+      "gain_min": -0.011910634305603685,
+      "gain_max": 0.017696116257001404,
+      "positive_blocks": 4,
+      "patient_ci_low": 0.0030343304892997574,
+      "patient_ci_high": 0.00823367280106334
+    },
+    {
+      "sensitivity": "all_five",
+      "family": "RJ",
+      "metric": "brier",
+      "blocks": 5,
+      "ensemble_mean": 0.061433973702607704,
+      "gain_mean": 0.0009040406508122101,
+      "gain_sd": 0.0027103760889848733,
+      "gain_min": -0.0032885653894993427,
+      "gain_max": 0.003599692182132193,
+      "positive_blocks": 4,
+      "patient_ci_low": 0.0005651463886580732,
+      "patient_ci_high": 0.0012166802951217844
+    },
+    {
+      "sensitivity": "omit_ResNet202_only",
+      "family": "RR",
+      "metric": "auroc",
+      "blocks": 3,
+      "ensemble_mean": 0.9412241551995115,
+      "gain_mean": 0.0017787545052009301,
+      "gain_sd": 0.0010098655715634493,
+      "gain_min": 0.001183758040542493,
+      "gain_max": 0.002944764613046047,
+      "positive_blocks": 3,
+      "patient_ci_low": 0.0011954837663951693,
+      "patient_ci_high": 0.002321230701507412
+    },
+    {
+      "sensitivity": "omit_ResNet202_only",
+      "family": "RR",
+      "metric": "ap",
+      "blocks": 3,
+      "ensemble_mean": 0.7155584149760714,
+      "gain_mean": 0.00580775481380021,
+      "gain_sd": 0.0029776953571426902,
+      "gain_min": 0.003734314601997357,
+      "gain_max": 0.009219828347301062,
+      "positive_blocks": 3,
+      "patient_ci_low": 0.0023025941417770895,
+      "patient_ci_high": 0.009507527917568728
+    },
+    {
+      "sensitivity": "omit_ResNet202_only",
+      "family": "RR",
+      "metric": "f1_at_0_5",
+      "blocks": 3,
+      "ensemble_mean": 0.6082214446806695,
+      "gain_mean": -0.0013904603244783893,
+      "gain_sd": 0.00546049147965201,
+      "gain_min": -0.007592525635038538,
+      "gain_max": 0.0026943185440152506,
+      "positive_blocks": 2,
+      "patient_ci_low": -0.004354194851861379,
+      "patient_ci_high": 0.0018156028733071886
+    },
+    {
+      "sensitivity": "omit_ResNet202_only",
+      "family": "RR",
+      "metric": "brier",
+      "blocks": 3,
+      "ensemble_mean": 0.06341255865670133,
+      "gain_mean": 0.0003444441347778965,
+      "gain_sd": 0.0004547791104341239,
+      "gain_min": -0.00017751491771285377,
+      "gain_max": 0.0006553546126411985,
+      "positive_blocks": 2,
+      "patient_ci_low": 0.00011712475987156,
+      "patient_ci_high": 0.0005603462241966922
+    },
+    {
+      "sensitivity": "omit_ResNet202_only",
+      "family": "JJ",
+      "metric": "auroc",
+      "blocks": 5,
+      "ensemble_mean": 0.9396803743089608,
+      "gain_mean": -0.00014442267637144736,
+      "gain_sd": 0.00030388541979425025,
+      "gain_min": -0.000544696686999302,
+      "gain_max": 0.00026898948429843195,
+      "positive_blocks": 1,
+      "patient_ci_low": -0.000325708199360456,
+      "patient_ci_high": 2.314202659224032e-05
+    },
+    {
+      "sensitivity": "omit_ResNet202_only",
+      "family": "JJ",
+      "metric": "ap",
+      "blocks": 5,
+      "ensemble_mean": 0.698932554545806,
+      "gain_mean": -0.00016657396341472895,
+      "gain_sd": 0.0007830377881191,
+      "gain_min": -0.0010460454213715442,
+      "gain_max": 0.000753746591491633,
+      "positive_blocks": 2,
+      "patient_ci_low": -0.0014221092823500441,
+      "patient_ci_high": 0.0006517649421075464
+    },
+    {
+      "sensitivity": "omit_ResNet202_only",
+      "family": "JJ",
+      "metric": "f1_at_0_5",
+      "blocks": 5,
+      "ensemble_mean": 0.5951450240540787,
+      "gain_mean": -0.00029380837980037545,
+      "gain_sd": 0.0021672420591663092,
+      "gain_min": -0.0036423695080848306,
+      "gain_max": 0.0015641120899970717,
+      "positive_blocks": 3,
+      "patient_ci_low": -0.0020209186758915107,
+      "patient_ci_high": 0.0008640134871289751
+    },
+    {
+      "sensitivity": "omit_ResNet202_only",
+      "family": "JJ",
+      "metric": "brier",
+      "blocks": 5,
+      "ensemble_mean": 0.06206931388601851,
+      "gain_mean": -0.00028989762340277255,
+      "gain_sd": 0.00031358253030499937,
+      "gain_min": -0.0007665996916483217,
+      "gain_max": 5.8289290073308686e-05,
+      "positive_blocks": 1,
+      "patient_ci_low": -0.000340639007361962,
+      "patient_ci_high": -0.0002366115847090145
+    },
+    {
+      "sensitivity": "omit_ResNet202_only",
+      "family": "RJ",
+      "metric": "auroc",
+      "blocks": 4,
+      "ensemble_mean": 0.945432755970077,
+      "gain_mean": 0.005500918487377743,
+      "gain_sd": 0.0007095097274800701,
+      "gain_min": 0.004994744423687747,
+      "gain_max": 0.00650504065633517,
+      "positive_blocks": 4,
+      "patient_ci_low": 0.004430879065386873,
+      "patient_ci_high": 0.006405745688094776
+    },
+    {
+      "sensitivity": "omit_ResNet202_only",
+      "family": "RJ",
+      "metric": "ap",
+      "blocks": 4,
+      "ensemble_mean": 0.7341501535740087,
+      "gain_mean": 0.029674411794505,
+      "gain_sd": 0.0010736419512009767,
+      "gain_min": 0.02869756363440834,
+      "gain_max": 0.031124569592499984,
+      "positive_blocks": 4,
+      "patient_ci_low": 0.022101926250601475,
+      "patient_ci_high": 0.03501310450455756
+    },
+    {
+      "sensitivity": "omit_ResNet202_only",
+      "family": "RJ",
+      "metric": "f1_at_0_5",
+      "blocks": 4,
+      "ensemble_mean": 0.6124242632993147,
+      "gain_mean": 0.0103202634471381,
+      "gain_sd": 0.0061250235676951975,
+      "gain_min": 0.00500031050044436,
+      "gain_max": 0.017696116257001404,
+      "positive_blocks": 4,
+      "patient_ci_low": 0.007499389489643688,
+      "patient_ci_high": 0.012778604642499598
+    },
+    {
+      "sensitivity": "omit_ResNet202_only",
+      "family": "RJ",
+      "metric": "brier",
+      "blocks": 4,
+      "ensemble_mean": 0.06025312355789181,
+      "gain_mean": 0.0019521921608900983,
+      "gain_sd": 0.0015718484249859681,
+      "gain_min": 0.00019454959430632857,
+      "gain_max": 0.003599692182132193,
+      "positive_blocks": 4,
+      "patient_ci_low": 0.0016096930087345733,
+      "patient_ci_high": 0.002258009232407888
+    },
+    {
+      "sensitivity": "omit_both_seed202",
+      "family": "RR",
+      "metric": "auroc",
+      "blocks": 3,
+      "ensemble_mean": 0.9412241551995115,
+      "gain_mean": 0.0017787545052009301,
+      "gain_sd": 0.0010098655715634493,
+      "gain_min": 0.001183758040542493,
+      "gain_max": 0.002944764613046047,
+      "positive_blocks": 3,
+      "patient_ci_low": 0.0011954837663951693,
+      "patient_ci_high": 0.002321230701507412
+    },
+    {
+      "sensitivity": "omit_both_seed202",
+      "family": "RR",
+      "metric": "ap",
+      "blocks": 3,
+      "ensemble_mean": 0.7155584149760714,
+      "gain_mean": 0.00580775481380021,
+      "gain_sd": 0.0029776953571426902,
+      "gain_min": 0.003734314601997357,
+      "gain_max": 0.009219828347301062,
+      "positive_blocks": 3,
+      "patient_ci_low": 0.0023025941417770895,
+      "patient_ci_high": 0.009507527917568728
+    },
+    {
+      "sensitivity": "omit_both_seed202",
+      "family": "RR",
+      "metric": "f1_at_0_5",
+      "blocks": 3,
+      "ensemble_mean": 0.6082214446806695,
+      "gain_mean": -0.0013904603244783893,
+      "gain_sd": 0.00546049147965201,
+      "gain_min": -0.007592525635038538,
+      "gain_max": 0.0026943185440152506,
+      "positive_blocks": 2,
+      "patient_ci_low": -0.004354194851861379,
+      "patient_ci_high": 0.0018156028733071886
+    },
+    {
+      "sensitivity": "omit_both_seed202",
+      "family": "RR",
+      "metric": "brier",
+      "blocks": 3,
+      "ensemble_mean": 0.06341255865670133,
+      "gain_mean": 0.0003444441347778965,
+      "gain_sd": 0.0004547791104341239,
+      "gain_min": -0.00017751491771285377,
+      "gain_max": 0.0006553546126411985,
+      "positive_blocks": 2,
+      "patient_ci_low": 0.00011712475987156,
+      "patient_ci_high": 0.0005603462241966922
+    },
+    {
+      "sensitivity": "omit_both_seed202",
+      "family": "JJ",
+      "metric": "auroc",
+      "blocks": 3,
+      "ensemble_mean": 0.9394399455591417,
+      "gain_mean": -0.00022915174959092788,
+      "gain_sd": 0.0002753054208314655,
+      "gain_min": -0.000544696686999302,
+      "gain_max": -3.796342991524426e-05,
+      "positive_blocks": 0,
+      "patient_ci_low": -0.0004640503707751422,
+      "patient_ci_high": 6.52139919342733e-06
+    },
+    {
+      "sensitivity": "omit_both_seed202",
+      "family": "JJ",
+      "metric": "ap",
+      "blocks": 3,
+      "ensemble_mean": 0.6985734808636793,
+      "gain_mean": -0.00024002961297253655,
+      "gain_sd": 0.0007414447175859715,
+      "gain_min": -0.0010460454213715442,
+      "gain_max": 0.00041296660434242405,
+      "positive_blocks": 1,
+      "patient_ci_low": -0.0016780011650604026,
+      "patient_ci_high": 0.0007916140119194603
+    },
+    {
+      "sensitivity": "omit_both_seed202",
+      "family": "JJ",
+      "metric": "f1_at_0_5",
+      "blocks": 3,
+      "ensemble_mean": 0.5939838754108742,
+      "gain_mean": -0.0011371939479933497,
+      "gain_sd": 0.0025248846404067253,
+      "gain_min": -0.0036423695080848306,
+      "gain_max": 0.0014069487117234214,
+      "positive_blocks": 1,
+      "patient_ci_low": -0.00308966423084036,
+      "patient_ci_high": 0.00034956053768017665
+    },
+    {
+      "sensitivity": "omit_both_seed202",
+      "family": "JJ",
+      "metric": "brier",
+      "blocks": 3,
+      "ensemble_mean": 0.06231889172858879,
+      "gain_mean": -0.00040405865746357544,
+      "gain_sd": 0.0003412998153948915,
+      "gain_min": -0.0007665996916483217,
+      "gain_max": -8.896526158069795e-05,
+      "positive_blocks": 0,
+      "patient_ci_low": -0.00047263054994886697,
+      "patient_ci_high": -0.0003308311403410346
+    },
+    {
+      "sensitivity": "omit_both_seed202",
+      "family": "RJ",
+      "metric": "auroc",
+      "blocks": 3,
+      "ensemble_mean": 0.9450962631278733,
+      "gain_mean": 0.005166211097725267,
+      "gain_sd": 0.0002879789227624466,
+      "gain_min": 0.004994744423687747,
+      "gain_max": 0.005498685685300764,
+      "positive_blocks": 3,
+      "patient_ci_low": 0.0041863050054738,
+      "patient_ci_high": 0.006007737506749039
+    },
+    {
+      "sensitivity": "omit_both_seed202",
+      "family": "RJ",
+      "metric": "ap",
+      "blocks": 3,
+      "ensemble_mean": 0.7319196635891947,
+      "gain_mean": 0.02962660372274913,
+      "gain_sd": 0.0013097125214022631,
+      "gain_min": 0.02869756363440834,
+      "gain_max": 0.031124569592499984,
+      "positive_blocks": 3,
+      "patient_ci_low": 0.022956168611659222,
+      "patient_ci_high": 0.034275945524421904
+    },
+    {
+      "sensitivity": "omit_both_seed202",
+      "family": "RJ",
+      "metric": "f1_at_0_5",
+      "blocks": 3,
+      "ensemble_mean": 0.6103879981718513,
+      "gain_mean": 0.009421738466593147,
+      "gain_sd": 0.007171456456902778,
+      "gain_min": 0.00500031050044436,
+      "gain_max": 0.017696116257001404,
+      "positive_blocks": 3,
+      "patient_ci_low": 0.00606143943454846,
+      "patient_ci_high": 0.0120119966091712
+    },
+    {
+      "sensitivity": "omit_both_seed202",
+      "family": "RJ",
+      "metric": "brier",
+      "blocks": 3,
+      "ensemble_mean": 0.06072182456926415,
+      "gain_mean": 0.0016354604907853367,
+      "gain_sd": 0.0017618591037912746,
+      "gain_min": 0.00019454959430632857,
+      "gain_max": 0.003599692182132193,
+      "positive_blocks": 3,
+      "patient_ci_low": 0.0012787404577269625,
+      "patient_ci_high": 0.001931554893397283
+    }
+  ],
+  "model_seed_uncertainty": {
+    "metrics": [
+      "auroc",
+      "ap",
+      "f1_at_0_5",
+      "brier"
+    ],
+    "rows": [
+      "RR",
+      "JJ",
+      "RJ",
+      "RJ_minus_RR",
+      "RJ_minus_JJ",
+      "RJ_minus_average_same_family"
+    ],
+    "all_pair_observed": [
+      [
+        0.001758200311039293,
+        0.0060067783495207135,
+        -0.007799880474010834,
+        -0.0009583951114867824
+      ],
+      [
+        -9.577704945633592e-05,
+        0.0001520055339284121,
+        -0.0006229206077265181,
+        -0.00025457991421752173
+      ],
+      [
+        0.005475544911377788,
+        0.0281581798719919,
+        0.006252648747066792,
+        0.0009191907754859937
+      ],
+      [
+        0.003717344600338495,
+        0.022151401522471185,
+        0.014052529221077626,
+        0.0018775858869727762
+      ],
+      [
+        0.005571321960834124,
+        0.02800617433806349,
+        0.00687556935479331,
+        0.0011737706897035154
+      ],
+      [
+        0.00464433328058631,
+        0.025078787930267337,
+        0.010464049287935467,
+        0.0015256782883381458
+      ]
+    ],
+    "model_seed_bootstrap_ci95": [
+      [
+        [
+          0.0005163557037834888,
+          0.0006967961301996394,
+          -0.013835118658108913,
+          -0.0024114922028205836
+        ],
+        [
+          -0.00023816214679128755,
+          -0.0004184181685486177,
+          -0.001794580883450181,
+          -0.00040270590043409854
+        ],
+        [
+          0.004757681569354389,
+          0.02487663191416342,
+          -0.0021010557751227526,
+          -0.0013430938407525397
+        ],
+        [
+          0.0034081849575360295,
+          0.020008539374154574,
+          0.006724049709250061,
+          1.0206817687579757e-05
+        ],
+        [
+          0.004808614719334954,
+          0.024749406916126777,
+          -0.0018301444812130153,
+          -0.0011418429062069184
+        ],
+        [
+          0.004255489169970757,
+          0.023021205207831522,
+          0.00340506714522571,
+          -0.00043014454882082427
+        ]
+      ],
+      [
+        [
+          0.002238554598395781,
+          0.008355694861886098,
+          0.0025816681928573894,
+          0.0008511332976963972
+        ],
+        [
+          0.00015010976863885083,
+          0.0008866147724192142,
+          0.000938467253998243,
+          1.3067452876011632e-05
+        ],
+        [
+          0.006236090099216933,
+          0.03044171164553418,
+          0.012888903763756726,
+          0.002769154177406695
+        ],
+        [
+          0.004980803228984706,
+          0.027761549161724835,
+          0.016228279883653485,
+          0.0030207480415867026
+        ],
+        [
+          0.0063455281601978615,
+          0.030447311081114713,
+          0.013423752041606198,
+          0.0029851086786367425
+        ],
+        [
+          0.005494528716329347,
+          0.02862129162663475,
+          0.013022566618272996,
+          0.0025968439048004934
+        ]
+      ]
+    ],
+    "model_seed_draws": 10000,
+    "model_seed_bootstrap_seed": 2026102802,
+    "exact_model_label_assignments": 252,
+    "permutation_statistic": [
+      0.00464433328058631,
+      0.025078787930267337,
+      0.010464049287935467,
+      0.0015256782883381458
+    ],
+    "permutation_upper_tail_fraction": [
+      0.007936507936507936,
+      0.007936507936507936,
+      0.007936507936507936,
+      0.007936507936507936
+    ],
+    "limitation": "Target scores and shared encoder fixed. Model-label exchangeability is not established; tail fractions are conditional diagnostics, not randomized or causal p-values. Pair edges are never treated as independent fits."
+  },
+  "paired_f1_rule_macro": [
+    {
+      "rule": "fixed_0_5",
+      "target": "MACRO",
+      "f1_gain": 0.016851820752324588,
+      "ci95_low": 0.010535506102082813,
+      "ci95_high": 0.022858521235343057,
+      "valid_draws": 2000
+    },
+    {
+      "rule": "external_oracle_f1",
+      "target": "MACRO",
+      "f1_gain": 0.011298092818400041,
+      "ci95_low": 0.00475997826563624,
+      "ci95_high": 0.02175299011414698,
+      "valid_draws": 2000
+    },
+    {
+      "rule": "patient_crossfit_f1",
+      "target": "MACRO",
+      "f1_gain": 0.007374094023076427,
+      "ci95_low": -0.001792893347341858,
+      "ci95_high": 0.03066630510368914,
+      "valid_draws": 2000
+    }
+  ],
+  "oracle_gap_recovered_by_observed_prior_correction": 0.8767707659263448,
+  "prior_shift_blend": [
+    {
+      "arm": "blend",
+      "target": "NORM",
+      "source_offset": -0.1472332249274594,
+      "target_offset": 0.3973485683994996,
+      "observed_offset_change": 0.544581793326959,
+      "prior_log_odds_delta": 0.8976332793683419,
+      "residual": -0.3530514860413829,
+      "residual_ci_low": -0.520937962083916,
+      "residual_ci_high": -0.19394237105819578,
+      "abs_residual_to_abs_prior_delta": 0.39331372193533504
+    },
+    {
+      "arm": "blend",
+      "target": "MI",
+      "source_offset": -0.041374132122506325,
+      "target_offset": -3.193421107601895,
+      "observed_offset_change": -3.1520469754793883,
+      "prior_log_odds_delta": -3.303663212147721,
+      "residual": 0.15161623666833268,
+      "residual_ci_low": 0.01778435864129595,
+      "residual_ci_high": 0.28837045850704984,
+      "abs_residual_to_abs_prior_delta": 0.0458933695513613
+    },
+    {
+      "arm": "blend",
+      "target": "STTC",
+      "source_offset": -0.03512834807554638,
+      "target_offset": 0.37592232925614166,
+      "observed_offset_change": 0.41105067733168804,
+      "prior_log_odds_delta": -0.007791834731357694,
+      "residual": 0.41884251206304574,
+      "residual_ci_low": 0.2898166807549954,
+      "residual_ci_high": 0.5424610759240039,
+      "abs_residual_to_abs_prior_delta": null
+    },
+    {
+      "arm": "blend",
+      "target": "CD",
+      "source_offset": 0.07912450450369753,
+      "target_offset": -0.037000593091046974,
+      "observed_offset_change": -0.1161250975947445,
+      "prior_log_odds_delta": -0.8251519593615846,
+      "residual": 0.70902686176684,
+      "residual_ci_low": 0.5537760237460394,
+      "residual_ci_high": 0.8660624128153033,
+      "abs_residual_to_abs_prior_delta": 0.8592682277763846
+    },
+    {
+      "arm": "blend",
+      "target": "HYP",
+      "source_offset": 0.4058920115493496,
+      "target_offset": -2.545557482589044,
+      "observed_offset_change": -2.9514494941383935,
+      "prior_log_odds_delta": -2.578480558227277,
+      "residual": -0.37296893591111635,
+      "residual_ci_low": -0.5338438712422937,
+      "residual_ci_high": -0.2153590525782466,
+      "abs_residual_to_abs_prior_delta": 0.14464679003340442
+    }
+  ],
+  "excluded_top_statements": [
+    {
+      "code": 22,
+      "description": "Sinus bradycardia",
+      "records": 1696
+    },
+    {
+      "code": 23,
+      "description": "Sinus arrhythmia",
+      "records": 1196
+    },
+    {
+      "code": 60,
+      "description": "Ventricular premature complex(es)",
+      "records": 660
+    },
+    {
+      "code": 21,
+      "description": "Sinus tachycardia",
+      "records": 448
+    },
+    {
+      "code": 30,
+      "description": "Atrial premature complex(es)",
+      "records": 314
+    },
+    {
+      "code": 50,
+      "description": "Atrial fibrillation",
+      "records": 285
+    },
+    {
+      "code": 125,
+      "description": "Low voltage",
+      "records": 236
+    },
+    {
+      "code": 120,
+      "description": "Right-axis deviation",
+      "records": 133
+    },
+    {
+      "code": 121,
+      "description": "Left-axis deviation",
+      "records": 108
+    },
+    {
+      "code": 36,
+      "description": "Junctional premature complex(es)",
+      "records": 42
+    },
+    {
+      "code": 155,
+      "description": "Early repolarization",
+      "records": 31
+    },
+    {
+      "code": 80,
+      "description": "Short PR interval",
+      "records": 10
+    },
+    {
+      "code": 54,
+      "description": "Junctional tachycardia",
+      "records": 8
+    },
+    {
+      "code": 51,
+      "description": "Atrial flutter",
+      "records": 7
+    },
+    {
+      "code": 148,
+      "description": "Prolonged QT interval",
+      "records": 5
+    },
+    {
+      "code": 152,
+      "description": "TU fusion",
+      "records": 4
+    },
+    {
+      "code": 31,
+      "description": "Atrial premature complexes, nonconducted",
+      "records": 2
+    },
+    {
+      "code": 37,
+      "description": "Junctional escape complex(es)",
+      "records": 2
+    },
+    {
+      "code": 81,
+      "description": "AV conduction ratio N:D",
+      "records": 1
+    }
+  ],
+  "youngest_support_sensitivity": {
+    "scope": "additional post hoc fixed-support diagnostic; not the original five-target endpoint",
+    "age_stratum": "18-39",
+    "minimum_positive_and_negative": 20,
+    "classes_retained": [
+      "NORM",
+      "STTC",
+      "CD",
+      "HYP"
+    ],
+    "positive_support_all_five": [
+      4755,
+      3,
+      738,
+      470,
+      28
+    ],
+    "records": 5941,
+    "patients": 5821,
+    "metrics": [
+      "auroc",
+      "ap",
+      "f1",
+      "precision",
+      "sensitivity",
+      "specificity",
+      "brier"
+    ],
+    "arms": [
+      "resnet",
+      "jepa",
+      "blend"
+    ],
+    "points": [
+      [
+        0.8976617842912817,
+        0.6404229986681038,
+        0.6368385924063914,
+        0.6511026252137719,
+        0.6770203435484825,
+        0.8693555831504625,
+        0.05900955592905992
+      ],
+      [
+        0.9116335435523002,
+        0.7049005311593823,
+        0.6315097859180125,
+        0.6553801345556317,
+        0.6877769463958339,
+        0.865044697981511,
+        0.05556278978816497
+      ],
+      [
+        0.9122920137122833,
+        0.7297644180691529,
+        0.6372195931352205,
+        0.6622285542296109,
+        0.6741784302209661,
+        0.8709960003716704,
+        0.05444720932671871
+      ]
+    ],
+    "auroc_ci95": [
+      {
+        "valid": 1000,
+        "ci95": [
+          0.8880617063511544,
+          0.9064002963281547
+        ]
+      },
+      {
+        "valid": 1000,
+        "ci95": [
+          0.9030226434339801,
+          0.9196101739361665
+        ]
+      },
+      {
+        "valid": 1000,
+        "ci95": [
+          0.9029801201084751,
+          0.9201473430912441
+        ]
+      }
+    ],
+    "blend_minus_jepa_auroc": 0.0006584701599831044,
+    "blend_minus_jepa_auroc_ci95": {
+      "valid": 1000,
+      "ci95": [
+        -0.001421346860041614,
+        0.0029984594283123164
+      ]
+    },
+    "seed": 2026102806,
+    "draws": 1000,
+    "original_five_class_interval_still_withheld": true
+  },
+  "input_hashes": {
+    "a01_assessment": "ddb20dc35ef4f28bb4814b3e2964bf7e0743ef426722dd3658db6ca63c09dd39",
+    "a03_a04_draws": "14009c4eae3db1165b6dc13f04cb5c353a73211fd3a036c596dee8b57d430345",
+    "source_metadata": "c6f8dc5197758a3970aae554f8b6ee884d96656b121879bc0eb1adf367ea6d86",
+    "source_dictionary": "4d22759fd19d37133c78d439a5726f9e0bc412cc17483c424926ce9abb33c8fc"
+  },
+  "outputs": {
+    "component_seed_summary.csv": "32b6ef2df6e4e7fd7756ba7ebe067883a2db1e9852bcfcdd942f6cc80da32f84",
+    "code_to_target_map.csv": "30cf5333133eb62272601f452067894c31ad0ee05bb66359c131ae22dceb702c",
+    "per_class_seed_results.csv": "fd37108601c5804756228316c7efc1ce7c1afaaff00206f5b2f2743b0c7ea60f",
+    "classwise_operating_points.csv": "3cbe6fb173ffdd227b6d1b6a4c3a91dd37b9b7ad84e634b68df1e3f398c28a71",
+    "youngest_support_sensitivity.json": "4cd87a539bad5fb41045c47fcd531885cf92db0d1a194d7d1e85675c3641fe3e",
+    "prior_shift_effect_sizes.csv": "ef37565672adcb7ea4f5d5f191f7a71e325f45761764c5e5467a013ed7f8c551",
+    "youngest_support_draws.npz": "bee2387ae10635f8a2a49b6c650314928eb44d5ba95fc6e2c970dcbb65bd8669",
+    "paired_f1_rule_contrasts.csv": "a7c7fe2e95b226b5f8f55d762fa7fcbb9b4977f9bb0146b9bf116b8aa21dce12",
+    "excluded_statement_breakdown.csv": "9684ec5f2c4449f317abd6da09423e960f64ff36ae822de950ebb084063b95b6",
+    "excluded_statement_combinations.csv": "a9c4f50eff6a46e41d8ad214ddca8e08e73e4965616ca4e21c9b99b83e4c8d74",
+    "model_seed_uncertainty.json": "7733c07b258cd126d748276e34fb0c54bb769687702b1f9dd6102e26dd0ae865",
+    "mi_false_positive_statements.csv": "3714274fd8c6d9ab82eac54370e23f4fcccf4a268616534c05036fc0f670b097",
+    "model_resampling_draws.npz": "30e1a0bbe36a840defdd04e22b98ae0e452fef4a5533bfc32793eea6872b588d",
+    "retained_pair_diversity.csv": "4b9f1cef49444bad30e1ffcaee4f65f1616099107c449e9fb3ae7f6235b98783",
+    "classwise_inclusion_results.csv": "4c1d02891312b6e42b146d4ac8cd3fcd017f3982f69129c492ab5af1932a2676",
+    "seed202_sensitivity.csv": "de8a8991ed1bd60f800f4493d5fccf08d20556263bc53cd7a4bbb5ffc19f2dcf"
+  }
+}

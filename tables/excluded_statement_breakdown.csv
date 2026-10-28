@@ -1,0 +1,45 @@
+source_code,source_statement,records,percent_of_excluded,counts_overlap_across_statements
+1,Normal ECG,0,0.0,True
+21,Sinus tachycardia,448,9.766732068890342,True
+22,Sinus bradycardia,1696,36.97405711794201,True
+23,Sinus arrhythmia,1196,26.073686505341183,True
+30,Atrial premature complex(es),314,6.84543274471332,True
+31,"Atrial premature complexes, nonconducted",2,0.043601482450403316,True
+36,Junctional premature complex(es),42,0.9156311314584696,True
+37,Junctional escape complex(es),2,0.043601482450403316,True
+50,Atrial fibrillation,285,6.213211249182472,True
+51,Atrial flutter,7,0.1526051885764116,True
+54,Junctional tachycardia,8,0.17440592980161326,True
+60,Ventricular premature complex(es),660,14.388489208633093,True
+80,Short PR interval,10,0.21800741225201656,True
+81,AV conduction ratio N:D,1,0.021800741225201658,True
+82,Prolonged PR interval,0,0.0,True
+83,"Second-degree AV block, Mobitz type I (Wenckebach)",0,0.0,True
+84,"Second-degree AV block, Mobitz type II",0,0.0,True
+85,2:1 AV block,0,0.0,True
+86,"AV block, varying conduction",0,0.0,True
+87,"AV block, advanced (high-grade)",0,0.0,True
+88,"AV block, complete (third-degree)",0,0.0,True
+101,Left anterior fascicular block,0,0.0,True
+102,Left posterior fascicular block,0,0.0,True
+104,Left bundle-branch block,0,0.0,True
+105,Incomplete right bundle-branch block,0,0.0,True
+106,Right bundle-branch block,0,0.0,True
+108,Ventricular preexcitation,0,0.0,True
+120,Right-axis deviation,133,2.8994985829518205,True
+121,Left-axis deviation,108,2.354480052321779,True
+125,Low voltage,236,5.144974929147591,True
+140,Left atrial enlargement,0,0.0,True
+142,Left ventricular hypertrophy,0,0.0,True
+143,Right ventricular hypertrophy,0,0.0,True
+145,ST deviation,0,0.0,True
+146,ST deviation with T-wave change,0,0.0,True
+147,T-wave abnormality,0,0.0,True
+148,Prolonged QT interval,5,0.10900370612600828,True
+152,TU fusion,4,0.08720296490080663,True
+153,ST-T change due to ventricular hypertrophy,0,0.0,True
+155,Early repolarization,31,0.6758229779812513,True
+160,Anterior MI,0,0.0,True
+161,Inferior MI,0,0.0,True
+165,Anteroseptal MI,0,0.0,True
+166,Extensive anterior MI,0,0.0,True

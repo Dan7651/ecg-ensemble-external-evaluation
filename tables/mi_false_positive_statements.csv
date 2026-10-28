@@ -1,0 +1,133 @@
+arm,source_code,source_statement,false_positive_records,total_annotated_mi_false_positives,percent_of_arm_false_positives,counts_overlap_across_statements
+resnet,1,Normal ECG,296,1262,23.454833597464344,True
+resnet,21,Sinus tachycardia,36,1262,2.8526148969889067,True
+resnet,22,Sinus bradycardia,151,1262,11.96513470681458,True
+resnet,23,Sinus arrhythmia,37,1262,2.931854199683043,True
+resnet,30,Atrial premature complex(es),39,1262,3.0903328050713155,True
+resnet,31,"Atrial premature complexes, nonconducted",0,1262,0.0,True
+resnet,36,Junctional premature complex(es),6,1262,0.4754358161648177,True
+resnet,37,Junctional escape complex(es),1,1262,0.07923930269413629,True
+resnet,50,Atrial fibrillation,92,1262,7.290015847860539,True
+resnet,51,Atrial flutter,26,1262,2.0602218700475436,True
+resnet,54,Junctional tachycardia,0,1262,0.0,True
+resnet,60,Ventricular premature complex(es),84,1262,6.6561014263074485,True
+resnet,80,Short PR interval,1,1262,0.07923930269413629,True
+resnet,81,AV conduction ratio N:D,1,1262,0.07923930269413629,True
+resnet,82,Prolonged PR interval,49,1262,3.882725832012678,True
+resnet,83,"Second-degree AV block, Mobitz type I (Wenckebach)",2,1262,0.15847860538827258,True
+resnet,84,"Second-degree AV block, Mobitz type II",1,1262,0.07923930269413629,True
+resnet,85,2:1 AV block,8,1262,0.6339144215530903,True
+resnet,86,"AV block, varying conduction",14,1262,1.109350237717908,True
+resnet,87,"AV block, advanced (high-grade)",1,1262,0.07923930269413629,True
+resnet,88,"AV block, complete (third-degree)",5,1262,0.39619651347068147,True
+resnet,101,Left anterior fascicular block,27,1262,2.13946117274168,True
+resnet,102,Left posterior fascicular block,2,1262,0.15847860538827258,True
+resnet,104,Left bundle-branch block,4,1262,0.31695721077654515,True
+resnet,105,Incomplete right bundle-branch block,105,1262,8.32012678288431,True
+resnet,106,Right bundle-branch block,138,1262,10.935023771790808,True
+resnet,108,Ventricular preexcitation,5,1262,0.39619651347068147,True
+resnet,120,Right-axis deviation,11,1262,0.8716323296354992,True
+resnet,121,Left-axis deviation,9,1262,0.7131537242472267,True
+resnet,125,Low voltage,31,1262,2.456418383518225,True
+resnet,140,Left atrial enlargement,6,1262,0.4754358161648177,True
+resnet,142,Left ventricular hypertrophy,60,1262,4.754358161648177,True
+resnet,143,Right ventricular hypertrophy,2,1262,0.15847860538827258,True
+resnet,145,ST deviation,129,1262,10.221870047543582,True
+resnet,146,ST deviation with T-wave change,250,1262,19.80982567353407,True
+resnet,147,T-wave abnormality,362,1262,28.684627575277336,True
+resnet,148,Prolonged QT interval,11,1262,0.8716323296354992,True
+resnet,152,TU fusion,1,1262,0.07923930269413629,True
+resnet,153,ST-T change due to ventricular hypertrophy,32,1262,2.535657686212361,True
+resnet,155,Early repolarization,0,1262,0.0,True
+resnet,160,Anterior MI,0,1262,0.0,True
+resnet,161,Inferior MI,0,1262,0.0,True
+resnet,165,Anteroseptal MI,0,1262,0.0,True
+resnet,166,Extensive anterior MI,0,1262,0.0,True
+jepa,1,Normal ECG,84,794,10.57934508816121,True
+jepa,21,Sinus tachycardia,36,794,4.534005037783375,True
+jepa,22,Sinus bradycardia,100,794,12.594458438287154,True
+jepa,23,Sinus arrhythmia,18,794,2.2670025188916876,True
+jepa,30,Atrial premature complex(es),32,794,4.030226700251889,True
+jepa,31,"Atrial premature complexes, nonconducted",0,794,0.0,True
+jepa,36,Junctional premature complex(es),4,794,0.5037783375314862,True
+jepa,37,Junctional escape complex(es),10,794,1.2594458438287153,True
+jepa,50,Atrial fibrillation,65,794,8.18639798488665,True
+jepa,51,Atrial flutter,26,794,3.27455919395466,True
+jepa,54,Junctional tachycardia,2,794,0.2518891687657431,True
+jepa,60,Ventricular premature complex(es),72,794,9.06801007556675,True
+jepa,80,Short PR interval,0,794,0.0,True
+jepa,81,AV conduction ratio N:D,1,794,0.12594458438287154,True
+jepa,82,Prolonged PR interval,42,794,5.289672544080605,True
+jepa,83,"Second-degree AV block, Mobitz type I (Wenckebach)",2,794,0.2518891687657431,True
+jepa,84,"Second-degree AV block, Mobitz type II",2,794,0.2518891687657431,True
+jepa,85,2:1 AV block,10,794,1.2594458438287153,True
+jepa,86,"AV block, varying conduction",12,794,1.5113350125944585,True
+jepa,87,"AV block, advanced (high-grade)",2,794,0.2518891687657431,True
+jepa,88,"AV block, complete (third-degree)",18,794,2.2670025188916876,True
+jepa,101,Left anterior fascicular block,33,794,4.156171284634761,True
+jepa,102,Left posterior fascicular block,3,794,0.3778337531486146,True
+jepa,104,Left bundle-branch block,2,794,0.2518891687657431,True
+jepa,105,Incomplete right bundle-branch block,84,794,10.57934508816121,True
+jepa,106,Right bundle-branch block,148,794,18.639798488664987,True
+jepa,108,Ventricular preexcitation,3,794,0.3778337531486146,True
+jepa,120,Right-axis deviation,9,794,1.1335012594458438,True
+jepa,121,Left-axis deviation,7,794,0.8816120906801007,True
+jepa,125,Low voltage,27,794,3.4005037783375314,True
+jepa,140,Left atrial enlargement,6,794,0.7556675062972292,True
+jepa,142,Left ventricular hypertrophy,33,794,4.156171284634761,True
+jepa,143,Right ventricular hypertrophy,1,794,0.12594458438287154,True
+jepa,145,ST deviation,94,794,11.838790931989925,True
+jepa,146,ST deviation with T-wave change,185,794,23.299748110831235,True
+jepa,147,T-wave abnormality,232,794,29.2191435768262,True
+jepa,148,Prolonged QT interval,8,794,1.0075566750629723,True
+jepa,152,TU fusion,0,794,0.0,True
+jepa,153,ST-T change due to ventricular hypertrophy,14,794,1.7632241813602014,True
+jepa,155,Early repolarization,0,794,0.0,True
+jepa,160,Anterior MI,0,794,0.0,True
+jepa,161,Inferior MI,0,794,0.0,True
+jepa,165,Anteroseptal MI,0,794,0.0,True
+jepa,166,Extensive anterior MI,0,794,0.0,True
+blend,1,Normal ECG,129,906,14.23841059602649,True
+blend,21,Sinus tachycardia,33,906,3.642384105960265,True
+blend,22,Sinus bradycardia,119,906,13.13465783664459,True
+blend,23,Sinus arrhythmia,26,906,2.869757174392936,True
+blend,30,Atrial premature complex(es),33,906,3.642384105960265,True
+blend,31,"Atrial premature complexes, nonconducted",0,906,0.0,True
+blend,36,Junctional premature complex(es),4,906,0.44150110375275936,True
+blend,37,Junctional escape complex(es),2,906,0.22075055187637968,True
+blend,50,Atrial fibrillation,71,906,7.836644591611479,True
+blend,51,Atrial flutter,25,906,2.759381898454746,True
+blend,54,Junctional tachycardia,1,906,0.11037527593818984,True
+blend,60,Ventricular premature complex(es),77,906,8.498896247240618,True
+blend,80,Short PR interval,0,906,0.0,True
+blend,81,AV conduction ratio N:D,1,906,0.11037527593818984,True
+blend,82,Prolonged PR interval,43,906,4.746136865342163,True
+blend,83,"Second-degree AV block, Mobitz type I (Wenckebach)",3,906,0.33112582781456956,True
+blend,84,"Second-degree AV block, Mobitz type II",1,906,0.11037527593818984,True
+blend,85,2:1 AV block,8,906,0.8830022075055187,True
+blend,86,"AV block, varying conduction",13,906,1.434878587196468,True
+blend,87,"AV block, advanced (high-grade)",1,906,0.11037527593818984,True
+blend,88,"AV block, complete (third-degree)",10,906,1.1037527593818985,True
+blend,101,Left anterior fascicular block,29,906,3.2008830022075054,True
+blend,102,Left posterior fascicular block,3,906,0.33112582781456956,True
+blend,104,Left bundle-branch block,2,906,0.22075055187637968,True
+blend,105,Incomplete right bundle-branch block,80,906,8.830022075055188,True
+blend,106,Right bundle-branch block,134,906,14.79028697571744,True
+blend,108,Ventricular preexcitation,3,906,0.33112582781456956,True
+blend,120,Right-axis deviation,10,906,1.1037527593818985,True
+blend,121,Left-axis deviation,7,906,0.7726269315673289,True
+blend,125,Low voltage,32,906,3.532008830022075,True
+blend,140,Left atrial enlargement,6,906,0.6622516556291391,True
+blend,142,Left ventricular hypertrophy,54,906,5.960264900662252,True
+blend,143,Right ventricular hypertrophy,2,906,0.22075055187637968,True
+blend,145,ST deviation,95,906,10.485651214128035,True
+blend,146,ST deviation with T-wave change,215,906,23.73068432671082,True
+blend,147,T-wave abnormality,276,906,30.4635761589404,True
+blend,148,Prolonged QT interval,10,906,1.1037527593818985,True
+blend,152,TU fusion,1,906,0.11037527593818984,True
+blend,153,ST-T change due to ventricular hypertrophy,26,906,2.869757174392936,True
+blend,155,Early repolarization,0,906,0.0,True
+blend,160,Anterior MI,0,906,0.0,True
+blend,161,Inferior MI,0,906,0.0,True
+blend,165,Anteroseptal MI,0,906,0.0,True
+blend,166,Extensive anterior MI,0,906,0.0,True

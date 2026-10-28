@@ -1,0 +1,26 @@
+source_code,source_statement,research_target,clinical_equivalence_adjudicated
+1,Normal ECG,NORM,False
+82,Prolonged PR interval,CD,False
+83,"Second-degree AV block, Mobitz type I (Wenckebach)",CD,False
+84,"Second-degree AV block, Mobitz type II",CD,False
+85,2:1 AV block,CD,False
+86,"AV block, varying conduction",CD,False
+87,"AV block, advanced (high-grade)",CD,False
+88,"AV block, complete (third-degree)",CD,False
+101,Left anterior fascicular block,CD,False
+102,Left posterior fascicular block,CD,False
+104,Left bundle-branch block,CD,False
+105,Incomplete right bundle-branch block,CD,False
+106,Right bundle-branch block,CD,False
+108,Ventricular preexcitation,CD,False
+140,Left atrial enlargement,HYP,False
+142,Left ventricular hypertrophy,HYP,False
+143,Right ventricular hypertrophy,HYP,False
+145,ST deviation,STTC,False
+146,ST deviation with T-wave change,STTC,False
+147,T-wave abnormality,STTC,False
+153,ST-T change due to ventricular hypertrophy,STTC,False
+160,Anterior MI,MI,False
+161,Inferior MI,MI,False
+165,Anteroseptal MI,MI,False
+166,Extensive anterior MI,MI,False
